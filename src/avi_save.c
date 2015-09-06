@@ -219,38 +219,38 @@ static int save_schedule(int schd)
 
 void *Avi_save(void *ptr)
 {
-    int ret = 0;
-    int status = 0;
-    char avi_file_name[128];
+	int ret = 0;
+	int status = 0;
+	char avi_file_name[128];
 
-    int channel = 0;
-    int width = 1280;
-    int height = 720;
-    int framerate = 30;
-    int bitsrate = 3*1024*1024;
+	int channel = 0;
+	int width = 1280;
+	int height = 720;
+	int framerate = 30;
+	int bitsrate = 3*1024*1024;
 	unsigned int need_free = 0;
-    int totelFrames = 0;
-    int rec_frames = 0;
-    int avi_type;
-    int avi_str_id;
+	int totelFrames = 0;
+	int rec_frames = 0;
+	int avi_type;
+	int avi_str_id;
 
-    HANDLE avi_file;
-    AviMainHeader main_header;
-    AviStreamHeader stream_header;
-    GmAviStreamFormat stream_format;
-    int avi_finish = 0;
+	HANDLE avi_file;
+	AviMainHeader main_header;
+	AviStreamHeader stream_header;
+	GmAviStreamFormat stream_format;
+	int avi_finish = 0;
 
-    AV_DATA av_data;
-    int *cmd;
+	AV_DATA av_data;
+	int *cmd;
 	char *sd_path = get_sdpath();
 
-    if(!GetSdStatus()){
-        status = CheckSDCard();
-        if(status<0){
-            printf("Check SD Card fail.\n");
-            goto avi_save_exit_2;
-        }
-    }
+	if(!GetSdStatus()){
+        	status = CheckSDCard();
+        	if(status<0){
+            		printf("Check SD Card fail.\n");
+            		goto avi_save_exit_2;
+        	}
+    	}
 	g_rec_status = 1;
 
 	while (g_rec_enable) {
@@ -260,9 +260,8 @@ void *Avi_save(void *ptr)
 		}
 
 		ret = GetVideoInfo(channel, &width, &height, &framerate, &bitsrate);
-		if(ret<0){
+		if (ret < 0)
 			printf("Avi_save: GetVideoInfo failed[%d], use default.\n", ret);
-		}
 
 		if (framerate < 8)
 			framerate = 9;

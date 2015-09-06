@@ -1,0 +1,976 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.6	//
+ADATA_BUF_LENGTH	src/rtspd.c	201;"	d	file:
+ALAW2LINEAR	inc/g711s.h	17;"	d
+ALAW2ULAW	inc/g711s.h	20;"	d
+ALIVE	inc/rtspd.h	/^	ALIVE = 0,$/;"	e	enum:MCTP_CMD_TYPE
+AQ_LEN	inc/rtspd.h	23;"	d
+AQ_MAX	inc/rtspd.h	22;"	d
+AUDIO_BUF_SIZE	src/p2p.c	32;"	d	file:
+AUDIO_DEF	src/rtspd.c	218;"	d	file:
+AUDIO_FRAME	inc/mem_mng.h	/^	AUDIO_FRAME = 0,$/;"	e	enum:__anon2
+AUDIO_SILC_SIZE	src/rtspd.c	200;"	d	file:
+AVI_LISTEN	src/avi_save.c	495;"	d	file:
+AVI_TO_CHECK	src/avi_save.c	81;"	d	file:
+AVI_stream_status	src/avi_save.c	/^}AVI_stream_status;$/;"	v	typeref:struct:_tagAvi_stream_status
+AV_Client	src/p2p.c	/^}AV_Client;$/;"	t	typeref:struct:_AV_Client	file:
+AV_GET_MPEG4_SERIAL	src/avi_save.c	107;"	d	file:
+AV_LOCK_MP4	src/avi_save.c	104;"	d	file:
+AV_LOCK_MP4_IFRAME	src/avi_save.c	105;"	d	file:
+AV_LOCK_MP4_VOL	src/avi_save.c	102;"	d	file:
+AV_NAME_MAX	inc/rtspd.h	24;"	d
+AV_UNLOCK_MP4	src/avi_save.c	106;"	d	file:
+AV_UNLOCK_MP4_VOL	src/avi_save.c	103;"	d	file:
+AV_WAIT_NEW_MPEG4_SERIAL	src/avi_save.c	108;"	d	file:
+Audio_RTP_HZ	src/rtspd.c	167;"	d	file:
+Audio_data	src/rtspd.c	/^struct Audio_data{$/;"	s	file:
+AuthCallBackFn	src/p2p.c	/^int AuthCallBackFn(char *viewAcc,char *viewPwd)$/;"	f
+Avi_Ctrl	src/avi_save.c	/^void *Avi_Ctrl(void *ptr)$/;"	f
+Avi_save	src/avi_save.c	/^void *Avi_save(void *ptr)$/;"	f
+Avi_start	src/avi_save.c	/^void Avi_start()$/;"	f
+Avi_stop	src/avi_save.c	/^int Avi_stop()$/;"	f
+B_FRAME	inc/mem_mng.h	/^	B_FRAME,$/;"	e	enum:__anon2
+B_FRAME_CACHE	inc/mem_mng.h	/^	B_FRAME_CACHE = B_FRAME,$/;"	e	enum:__anon5
+BlkSize	inc/g711.h	16;"	d
+CACHE_BLK	inc/mem_mng.h	/^}CACHE_BLK;$/;"	t	typeref:struct:_CACHE_BLK
+CACHE_DATA	inc/mem_mng.h	/^}CACHE_DATA;$/;"	t	typeref:struct:_CACHE_DATA
+CACHE_DATA_INFO	inc/mem_mng.h	/^}CACHE_DATA_INFO;$/;"	t	typeref:struct:_CACHE_DATA_INFO
+CACHE_ERR	inc/mem_mng.h	/^	CACHE_ERR,$/;"	e	enum:__anon4
+CACHE_MEM_FAIL	inc/mem_mng.h	/^	CACHE_MEM_FAIL,$/;"	e	enum:__anon4
+CACHE_MNG	inc/mem_mng.h	/^} CACHE_MNG;$/;"	t	typeref:struct:_CACHE_MNG_INFO
+CACHE_NOMEM	inc/mem_mng.h	/^	CACHE_NOMEM,$/;"	e	enum:__anon4
+CACHE_OK	inc/mem_mng.h	/^	CACHE_OK = 0,$/;"	e	enum:__anon4
+CACHE_PARM_ERR	inc/mem_mng.h	/^	CACHE_PARM_ERR = -100,$/;"	e	enum:__anon4
+CHANNEL_NUM	inc/rtspd.h	62;"	d
+CHECK_CHANNUM_AND_SUBNUM	inc/rtspd.h	64;"	d
+CLE_PRESET	inc/rtspd.h	254;"	d
+CLR_FILE_CHANGED	src/processMsg.c	435;"	d	file:
+CMOS	inc/rtspd.h	59;"	d
+CheckSDCard	src/sd_file.c	/^int CheckSDCard()$/;"	f
+DBG_ERR_INIT	src/init_system.c	38;"	d	file:
+DEBUG	src/sd_file.c	15;"	d	file:
+DELT	src/processMsg.c	463;"	d	file:
+DH_SERVER	src/processMsg.c	22;"	d	file:
+DIR_LEN	src/sd_file.c	17;"	d	file:
+DUMMY_FRAME	inc/mem_mng.h	/^	DUMMY_FRAME = (-2),$/;"	e	enum:__anon2
+DeInitAVInfo	src/p2p.c	/^void DeInitAVInfo()$/;"	f
+EMPTY_CACHE	inc/mem_mng.h	/^	EMPTY_CACHE = (-1),$/;"	e	enum:__anon5
+EMPTY_FRAME	inc/mem_mng.h	/^	EMPTY_FRAME = (-1),$/;"	e	enum:__anon2
+EMTYE	src/rtspd.c	203;"	d	file:
+ENC_STREAM_NUM	src/p2p.c	711;"	d	file:
+END_CACHE_TYPE	inc/mem_mng.h	/^	END_CACHE_TYPE$/;"	e	enum:__anon5
+END_FRAME_TYPE	inc/mem_mng.h	/^	END_FRAME_TYPE$/;"	e	enum:__anon2
+ERR_BUSY	inc/gm_librtsp.h	50;"	d
+ERR_BUSY	inc/librtsp.h	54;"	d
+ERR_FULL	inc/gm_librtsp.h	52;"	d
+ERR_FULL	inc/librtsp.h	56;"	d
+ERR_GENERAL	inc/gm_librtsp.h	43;"	d
+ERR_GENERAL	inc/librtsp.h	47;"	d
+ERR_GOTO	inc/rtspd.h	28;"	d
+ERR_IPC	inc/gm_librtsp.h	54;"	d
+ERR_IPC	inc/librtsp.h	58;"	d
+ERR_MEM	inc/gm_librtsp.h	46;"	d
+ERR_MEM	inc/librtsp.h	50;"	d
+ERR_MUTEX	inc/gm_librtsp.h	45;"	d
+ERR_MUTEX	inc/librtsp.h	49;"	d
+ERR_NOAVAIL	inc/gm_librtsp.h	51;"	d
+ERR_NOAVAIL	inc/librtsp.h	55;"	d
+ERR_NOTINIT	inc/gm_librtsp.h	48;"	d
+ERR_NOTINIT	inc/librtsp.h	52;"	d
+ERR_NOTRUN	inc/gm_librtsp.h	49;"	d
+ERR_NOTRUN	inc/librtsp.h	53;"	d
+ERR_OTHER	inc/gm_librtsp.h	56;"	d
+ERR_OTHER	inc/librtsp.h	60;"	d
+ERR_PARAM	inc/gm_librtsp.h	44;"	d
+ERR_PARAM	inc/librtsp.h	48;"	d
+ERR_RESOURCE	inc/gm_librtsp.h	47;"	d
+ERR_RESOURCE	inc/librtsp.h	51;"	d
+ERR_RUNNING	inc/gm_librtsp.h	53;"	d
+ERR_RUNNING	inc/librtsp.h	57;"	d
+ERR_THREAD	inc/gm_librtsp.h	55;"	d
+ERR_THREAD	inc/librtsp.h	59;"	d
+EXE	src/Makefile	/^EXE = av_server_onvif_rec$/;"	m
+FILE_AVI_RECORDING	inc/rtspd.h	/^	FILE_AVI_RECORDING,$/;"	e	enum:st_opt_type
+FILE_H264_RECORDING	inc/rtspd.h	/^	FILE_H264_RECORDING,$/;"	e	enum:st_opt_type
+FILE_PATH_MAX	inc/rtspd.h	18;"	d
+FOCUS_NEAR	inc/rtspd.h	249;"	d
+FOUCE_FAR	inc/rtspd.h	250;"	d
+FULL	src/rtspd.c	204;"	d	file:
+File_array	src/processMsg.c	/^}File_array[] = {$/;"	v	typeref:struct:_tagFile_array
+G711_a2u_lookup_ptr	src/g711s.s	/^G711_a2u_lookup_ptr:	$/;"	l
+G711_alaw2linear	src/g711s.s	/^G711_alaw2linear:	$/;"	l
+G711_alaw2ulaw	src/g711s.s	/^G711_alaw2ulaw:	$/;"	l
+G711_linear2alaw	src/g711s.s	/^G711_linear2alaw:	$/;"	l
+G711_linear2ulaw	src/g711s.s	/^G711_linear2ulaw:	$/;"	l
+G711_u2a_lookup_ptr	src/g711s.s	/^G711_u2a_lookup_ptr:	$/;"	l
+G711_ulaw2alaw	src/g711s.s	/^G711_ulaw2alaw:	$/;"	l
+G711_ulaw2linear	src/g711s.s	/^G711_ulaw2linear:$/;"	l
+GM_SS_AUDIO_MAX	inc/gm_librtsp.h	24;"	d
+GM_SS_AUDIO_MAX	inc/librtsp.h	28;"	d
+GM_SS_AUDIO_MIN	inc/gm_librtsp.h	21;"	d
+GM_SS_AUDIO_MIN	inc/librtsp.h	21;"	d
+GM_SS_QUERY_ALL	inc/gm_librtsp.h	34;"	d
+GM_SS_QUERY_ALL	inc/librtsp.h	38;"	d
+GM_SS_QUERY_FILE	inc/gm_librtsp.h	33;"	d
+GM_SS_QUERY_FILE	inc/librtsp.h	37;"	d
+GM_SS_QUERY_LIVE	inc/gm_librtsp.h	32;"	d
+GM_SS_QUERY_LIVE	inc/librtsp.h	36;"	d
+GM_SS_QUERY_SR	inc/gm_librtsp.h	31;"	d
+GM_SS_QUERY_SR	inc/librtsp.h	35;"	d
+GM_SS_TYPE_AAC	inc/librtsp.h	27;"	d
+GM_SS_TYPE_AMR	inc/gm_librtsp.h	23;"	d
+GM_SS_TYPE_AMR	inc/librtsp.h	23;"	d
+GM_SS_TYPE_G711	inc/librtsp.h	25;"	d
+GM_SS_TYPE_G726	inc/librtsp.h	26;"	d
+GM_SS_TYPE_H264	inc/gm_librtsp.h	16;"	d
+GM_SS_TYPE_H264	inc/librtsp.h	16;"	d
+GM_SS_TYPE_MJPEG	inc/gm_librtsp.h	18;"	d
+GM_SS_TYPE_MJPEG	inc/librtsp.h	18;"	d
+GM_SS_TYPE_MP2	inc/gm_librtsp.h	22;"	d
+GM_SS_TYPE_MP2	inc/librtsp.h	22;"	d
+GM_SS_TYPE_MP4	inc/gm_librtsp.h	17;"	d
+GM_SS_TYPE_MP4	inc/librtsp.h	17;"	d
+GM_SS_TYPE_PCM	inc/librtsp.h	24;"	d
+GM_SS_VIDEO_MAX	inc/gm_librtsp.h	19;"	d
+GM_SS_VIDEO_MAX	inc/librtsp.h	19;"	d
+GM_SS_VIDEO_MIN	inc/gm_librtsp.h	15;"	d
+GM_SS_VIDEO_MIN	inc/librtsp.h	15;"	d
+GM_STREAM_CMD_OPEN	inc/gm_librtsp.h	26;"	d
+GM_STREAM_CMD_OPEN	inc/librtsp.h	30;"	d
+GM_STREAM_CMD_PAUSE	inc/gm_librtsp.h	28;"	d
+GM_STREAM_CMD_PAUSE	inc/librtsp.h	32;"	d
+GM_STREAM_CMD_PLAY	inc/gm_librtsp.h	27;"	d
+GM_STREAM_CMD_PLAY	inc/librtsp.h	31;"	d
+GM_STREAM_CMD_TEARDOWN	inc/gm_librtsp.h	29;"	d
+GM_STREAM_CMD_TEARDOWN	inc/librtsp.h	33;"	d
+GOP_COMPLETE	inc/gop_lock.h	/^	GOP_COMPLETE = 0$/;"	e	enum:__anon9
+GOP_ERROR_OP	inc/gop_lock.h	/^	GOP_ERROR_OP,$/;"	e	enum:__anon9
+GOP_FAIL	inc/gop_lock.h	/^	GOP_FAIL = -104,$/;"	e	enum:__anon9
+GOP_INCOMPLETE	inc/gop_lock.h	/^	GOP_INCOMPLETE,$/;"	e	enum:__anon9
+GOP_INDEX_AUDIO	inc/gop_lock.h	/^	GOP_INDEX_AUDIO,$/;"	e	enum:__anon10
+GOP_INDEX_MAIN	inc/gop_lock.h	/^	GOP_INDEX_MAIN = 0,$/;"	e	enum:__anon10
+GOP_INDEX_NUM	inc/gop_lock.h	/^	GOP_INDEX_NUM$/;"	e	enum:__anon10
+GOP_INDEX_SUB	inc/gop_lock.h	/^	GOP_INDEX_SUB,$/;"	e	enum:__anon10
+GOP_INVALID_PRM	inc/gop_lock.h	/^	GOP_INVALID_PRM,$/;"	e	enum:__anon9
+GOP_NOMEM	inc/gop_lock.h	/^	GOP_NOMEM,$/;"	e	enum:__anon9
+GOP_NOT_READY	inc/gop_lock.h	/^	GOP_NOT_READY,$/;"	e	enum:__anon9
+GOP_OVERWRITTEN	inc/gop_lock.h	/^	GOP_OVERWRITTEN,$/;"	e	enum:__anon9
+GOTO_PRESET	inc/rtspd.h	255;"	d
+GenerateAviFileName	src/avi_save.c	/^static int GenerateAviFileName(char *strFileName)$/;"	f	file:
+GetCardfreeSpace	src/sd_file.c	/^long long GetCardfreeSpace(char *path)$/;"	f
+GetSdStatus	src/sd_file.c	/^int GetSdStatus()$/;"	f
+GetVideoInfo	src/avi_save.c	/^static int GetVideoInfo(int channel, int *w, int *h, int *fps, int *bps)$/;"	f	file:
+GopRet_t	inc/gop_lock.h	/^}GopRet_t;$/;"	t	typeref:enum:__anon9
+H264GetNALType	src/rtspd.c	/^static int H264GetNALType(char *pBSBuf, int nBSLen)$/;"	f	file:
+H264_TO_NVR	inc/rtspd.h	/^	H264_TO_NVR,$/;"	e	enum:st_opt_type
+Handle_IOCTRL_Cmd	src/p2p.c	/^void Handle_IOCTRL_Cmd(int SID, int avIndex, char *buf, int type)$/;"	f
+INCLUDE_DIRS	src/Makefile	/^INCLUDE_DIRS = $(ROOT)\/..\/libipnc\/inc ..\/inc \/usr\/src\/arm-linux-2.6.28\/module\/include\/vcap200_v3 $(LINUX_INC) $(MODULE_INC)\/dvr $(MODULE_INC)\/isp $(MODULE_INC)\/isp210_v3 $(MODULE_INC)\/sar_adc $(MODULE_INC)\/..\/BR_infrad $(ROOT)\/build\/TUTK_p2p\/Include $(ROOT)\/build\/TUTK_p2p\/Include\/P2PCam $(ROOT)\/codes\/CmdParser\/libyl $(ROOT)\/codes\/CmdParser\/libyl\/include $(ROOT)\/codes\/libmt$/;"	m
+INFRAD_DEV_NAME	src/infrad_ctrl.c	26;"	d	file:
+INPARAM	inc/g711s.h	/^   } INPARAM ;$/;"	t	typeref:struct:__anon6
+IOCTL	src/rtspd.c	51;"	d	file:
+IOTC_Linux	inc/GM8126_p2p.h	7;"	d
+IPC_CFG_FILE	inc/rtspd.h	16;"	d
+IRIS_CLOSE	inc/rtspd.h	252;"	d
+IRIS_OPEN	inc/rtspd.h	251;"	d
+IS_DIR	src/sd_file.c	/^int IS_DIR(const char* path)$/;"	f
+IS_FILE	src/sd_file.c	/^int IS_FILE(const char* path)$/;"	f
+IS_SET_FILE_CHANGED	src/processMsg.c	436;"	d	file:
+I_FRAME	inc/mem_mng.h	/^	I_FRAME,$/;"	e	enum:__anon2
+I_FRAME_CACHE	inc/mem_mng.h	/^	I_FRAME_CACHE = I_FRAME,$/;"	e	enum:__anon5
+InitAVInfo	src/p2p.c	/^void InitAVInfo()$/;"	f
+Init_table	src/init_system.c	/^struct _tagInit_table Init_table[] = {$/;"	v	typeref:struct:_tagInit_table
+IsCache	inc/mem_mng.h	/^	int				IsCache;$/;"	m	struct:_VIDEO_BLK_INFO
+IsFree	inc/mem_mng.h	/^	int IsFree;$/;"	m	struct:_CACHE_BLK
+IsQuit	inc/stream.h	/^	int				IsQuit;$/;"	m	struct:_STREAM_PARM
+Is_gt	src/sd_file.c	/^int Is_gt(char *dir_1, char *dir_2)$/;"	f
+KEY_DEV_NAME	src/infrad_ctrl.c	27;"	d	file:
+LIB	src/Makefile	/^LIB = $/;"	m
+LINEAR2ALAW	inc/g711s.h	16;"	d
+LINEAR2ULAW	inc/g711s.h	18;"	d
+LINK_LIBS	src/Makefile	/^LINK_LIBS = ipc cmdyl rtsp pthread m AVAPIs IOTCAPIs mt stdc++ ancda_zy$/;"	m
+LINUX_INC	src/Makefile	/^LINUX_INC=$(LINUX_SRC)\/include$/;"	m
+LINUX_SRC	src/Makefile	/^LINUX_SRC=\/usr\/src\/arm-linux-2.6.28\/linux-2.6.28-fa$/;"	m
+LoginInfoCB	src/p2p.c	/^void LoginInfoCB(unsigned long nLoginInfo)$/;"	f
+MACRO_BLOCK_SIZE	inc/rtspd.h	32;"	d
+MAC_FILE	src/processMsg.c	163;"	d	file:
+MAC_FILE_BCKUP	src/processMsg.c	164;"	d	file:
+MAIN_BLK_SIZE	inc/mem_mng.h	11;"	d
+MAIN_BS_NUM	inc/rtspd.h	36;"	d
+MAIN_CACHE_BLK_SIZE	inc/mem_mng.h	19;"	d
+MAIN_CACHE_SIZE	inc/mem_mng.h	14;"	d
+MAIN_EXT_CACHE_SIZE	inc/mem_mng.h	16;"	d
+MAIN_EXT_SIZE	inc/mem_mng.h	8;"	d
+MAIN_MEM_SIZE	inc/mem_mng.h	6;"	d
+MAX_AV_CHANNEL_NUMBER	src/p2p.c	29;"	d	file:
+MAX_CLIENT_NUMBER	src/p2p.c	27;"	d	file:
+MAX_LIST_FD	src/av_server.c	33;"	d	file:
+MAX_REC_TIME_LEN	src/avi_save.c	37;"	d	file:
+MAX_SET_BPS	src/processMsg.c	684;"	d	file:
+MAX_SHARE_PROC	inc/share_mem.h	20;"	d
+MAX_SIZE_IOCTRL_BUF	src/p2p.c	28;"	d	file:
+MCTP_CMD_TYPE	inc/rtspd.h	/^enum MCTP_CMD_TYPE{$/;"	g
+MEM_MNG_INFO	inc/mem_mng.h	/^} MEM_MNG_INFO;$/;"	t	typeref:struct:_MEM_INFO
+MEM_SIZE	inc/mem_mng.h	/^}MEM_SIZE;$/;"	t	typeref:struct:_MEM_SIZE
+MIN_REC_TIME_LEN	src/avi_save.c	38;"	d	file:
+MIN_SET_FPS	src/processMsg.c	683;"	d	file:
+MODULE_INC	src/Makefile	/^MODULE_INC=$(LINUX_SRC)\/..\/module\/include$/;"	m
+MUTEX_FAILED	inc/rtspd.h	29;"	d
+MemInfo	inc/stream.h	/^	MEM_MNG_INFO 	MemInfo;$/;"	m	struct:_STREAM_PARM
+MemMngSemId	inc/stream.h	/^	int 			MemMngSemId[STREAM_SEM_NUM];$/;"	m	struct:_STREAM_PARM
+NET_DEV_NAME	src/init_system.c	73;"	d	file:
+NEW_ROI_FUNC	src/rtspd.c	2067;"	d	file:
+NONE_BS_EVENT	inc/rtspd.h	47;"	d
+NORMAL	src/rtspd.c	202;"	d	file:
+NTSC	inc/rtspd.h	57;"	d
+NVR_send_status	src/rtspd.c	/^int NVR_send_status[CHANNEL_NUM+1][DVR_ENC_REPD_BT_NUM];$/;"	v
+OPT_END	inc/rtspd.h	/^	OPT_END$/;"	e	enum:st_opt_type
+OPT_NONE	inc/rtspd.h	/^	OPT_NONE=0,$/;"	e	enum:st_opt_type
+P2P_TO_CHECK	src/p2p.c	719;"	d	file:
+P2P_do_ptz	src/p2p.c	/^void P2P_do_ptz(unsigned char ctl, unsigned char spd, unsigned char pot)$/;"	f
+PAL	inc/rtspd.h	58;"	d
+PAN_AUTO	inc/rtspd.h	256;"	d
+PAN_AUTO_STOP	inc/rtspd.h	257;"	d
+PAN_LEFT	inc/rtspd.h	241;"	d
+PAN_RIGHT	inc/rtspd.h	242;"	d
+POLL_WAIT_TIME	src/rtspd.c	3195;"	d	file:
+PRINT_ENC_AVERAGE	inc/rtspd.h	33;"	d
+PROC_MEM_SIZE	inc/share_mem.h	19;"	d
+PTZ	inc/rtspd.h	/^	PTZ,$/;"	e	enum:MCTP_CMD_TYPE
+PTZ_STOP	inc/rtspd.h	238;"	d
+PT_LEFT_DOWN	inc/rtspd.h	244;"	d
+PT_LEFT_UP	inc/rtspd.h	243;"	d
+PT_RIGHT_DOWN	inc/rtspd.h	246;"	d
+PT_RIGHT_UP	inc/rtspd.h	245;"	d
+P_FRAME	inc/mem_mng.h	/^	P_FRAME,$/;"	e	enum:__anon2
+P_FRAME_CACHE	inc/mem_mng.h	/^	P_FRAME_CACHE = P_FRAME,$/;"	e	enum:__anon5
+PrintErrHandling	src/p2p.c	/^void PrintErrHandling (int nErr)$/;"	f
+RATE_CTL_CBR	inc/rtspd.h	52;"	d
+RATE_CTL_ECBR	inc/rtspd.h	54;"	d
+RATE_CTL_EVBR	inc/rtspd.h	55;"	d
+RATE_CTL_VBR	inc/rtspd.h	53;"	d
+RESERVE_SPACE	src/avi_save.c	48;"	d	file:
+ROOT	src/Makefile	/^ROOT = \/home\/onvif\/ipnc_app$/;"	m
+RTP_HZ	inc/rtspd.h	26;"	d
+RTSP_LIVE_STREAMING	inc/rtspd.h	/^	RTSP_LIVE_STREAMING,$/;"	e	enum:st_opt_type
+SDPSTR_MAX	inc/rtspd.h	17;"	d
+SDUnmount	src/sd_file.c	/^int SDUnmount()$/;"	f
+SD_MOUNTED	src/sd_file.c	19;"	d	file:
+SD_PATH	src/sd_file.c	21;"	d	file:
+SERVER_BUSY	inc/gm_librtsp.h	37;"	d
+SERVER_BUSY	inc/librtsp.h	41;"	d
+SERVER_NOT_RUN	inc/gm_librtsp.h	38;"	d
+SERVER_NOT_RUN	inc/librtsp.h	42;"	d
+SERVER_READY	inc/gm_librtsp.h	36;"	d
+SERVER_READY	inc/librtsp.h	40;"	d
+SERVTYPE_STREAM_SERVER	src/p2p.c	26;"	d	file:
+SET_FILE_CHANGED	src/processMsg.c	434;"	d	file:
+SET_PRESET	inc/rtspd.h	253;"	d
+SPEED_DOWN	inc/rtspd.h	259;"	d
+SPEED_UP	inc/rtspd.h	258;"	d
+SPE_PRESET_END	src/processMsg.c	563;"	d	file:
+SPE_PRESET_START	src/processMsg.c	562;"	d	file:
+SR_MAX	inc/rtspd.h	19;"	d
+START_BS_EVENT	inc/rtspd.h	48;"	d
+STOP_BS_EVENT	inc/rtspd.h	50;"	d
+STREAM_FAILURE	inc/stream.h	/^	STREAM_FAILURE   = -1,$/;"	e	enum:__anon7
+STREAM_NOT_STREAMING	inc/gm_librtsp.h	40;"	d
+STREAM_NOT_STREAMING	inc/librtsp.h	44;"	d
+STREAM_PARM	inc/stream.h	/^}	STREAM_PARM;$/;"	t	typeref:struct:_STREAM_PARM
+STREAM_SEM_GOP	inc/stream.h	/^	STREAM_SEM_GOP,$/;"	e	enum:__anon8
+STREAM_SEM_MAIN	inc/stream.h	/^	STREAM_SEM_MAIN = 0,$/;"	e	enum:__anon8
+STREAM_SEM_NUM	inc/stream.h	/^	STREAM_SEM_NUM$/;"	e	enum:__anon8
+STREAM_SEM_SUB	inc/stream.h	/^	STREAM_SEM_SUB,$/;"	e	enum:__anon8
+STREAM_STREAMING	inc/gm_librtsp.h	41;"	d
+STREAM_STREAMING	inc/librtsp.h	45;"	d
+STREAM_SUCCESS	inc/stream.h	/^	STREAM_SUCCESS   = 0$/;"	e	enum:__anon7
+SUB1_BS_NUM	inc/rtspd.h	37;"	d
+SUB2_BS_NUM	inc/rtspd.h	38;"	d
+SUB3_BS_NUM	inc/rtspd.h	39;"	d
+SUB4_BS_NUM	inc/rtspd.h	40;"	d
+SUB5_BS_NUM	inc/rtspd.h	41;"	d
+SUB6_BS_NUM	inc/rtspd.h	42;"	d
+SUB7_BS_NUM	inc/rtspd.h	43;"	d
+SUB8_BS_NUM	inc/rtspd.h	44;"	d
+SUB_BLK_SIZE	inc/mem_mng.h	12;"	d
+SUB_CACHE_BLK_SIZE	inc/mem_mng.h	20;"	d
+SUB_CACHE_SIZE	inc/mem_mng.h	15;"	d
+SUB_EXT_CACHE_SIZE	inc/mem_mng.h	17;"	d
+SUB_EXT_SIZE	inc/mem_mng.h	9;"	d
+SUB_MEM_SIZE	inc/mem_mng.h	7;"	d
+SYS_PROTOCOL	inc/init_system.h	8;"	d
+SdFormat	src/sd_file.c	/^int SdFormat()$/;"	f
+SerialBook	src/avi_save.c	/^    int SerialBook;$/;"	m	struct:_tagAvi_stream_status	file:
+SerialBook	src/p2p.c	/^    int SerialBook;$/;"	m	struct:_tagNVR_stream_status	file:
+SerialLock	src/avi_save.c	/^    int SerialLock;$/;"	m	struct:_tagAvi_stream_status	file:
+SerialLock	src/p2p.c	/^    int SerialLock;$/;"	m	struct:_tagNVR_stream_status	file:
+TILT_DOWN	inc/rtspd.h	240;"	d
+TILT_UP	inc/rtspd.h	239;"	d
+TIME_INTERVAL	inc/rtspd.h	31;"	d
+TOTAL_CACHE_SIZE	inc/mem_mng.h	23;"	d
+TOTAL_MEM_SIZE	inc/mem_mng.h	22;"	d
+TOTAL_SIZE	inc/mem_mng.h	24;"	d
+UID_FILE	src/p2p.c	948;"	d	file:
+ULAW2ALAW	inc/g711s.h	21;"	d
+ULAW2LINEAR	inc/g711s.h	19;"	d
+UN_AVI_DOMAIN	inc/avi_save.h	5;"	d
+UPDATE_BS_EVENT	inc/rtspd.h	49;"	d
+VCTRL	inc/rtspd.h	/^	VCTRL$/;"	e	enum:MCTP_CMD_TYPE
+VIDEO_BLK_INFO	inc/mem_mng.h	/^}VIDEO_BLK_INFO;$/;"	t	typeref:struct:_VIDEO_BLK_INFO
+VIDEO_BUF_SIZE	src/p2p.c	31;"	d	file:
+VIDEO_FRAME	inc/mem_mng.h	/^} VIDEO_FRAME;$/;"	t	typeref:struct:_VIDEO_FRAME
+VIDEO_FRAME_NUMBER	inc/rtspd.h	34;"	d
+VIDEO_GOP	inc/mem_mng.h	/^}VIDEO_GOP;$/;"	t	typeref:struct:_VIDEO_GOP
+VIDEO_INFO_END	inc/mem_mng.h	/^	VIDEO_INFO_END$/;"	e	enum:__anon3
+VIDEO_INFO_MAIN	inc/mem_mng.h	/^	VIDEO_INFO_MAIN = 0,$/;"	e	enum:__anon3
+VIDEO_INFO_SUB	inc/mem_mng.h	/^	VIDEO_INFO_SUB,$/;"	e	enum:__anon3
+VQ_LEN	inc/rtspd.h	21;"	d
+VQ_MAX	inc/rtspd.h	20;"	d
+Z_ZOOM_IN	inc/rtspd.h	247;"	d
+Z_ZOOM_OUT	inc/rtspd.h	248;"	d
+_AV_Client	src/p2p.c	/^typedef struct _AV_Client$/;"	s	file:
+_AV_GBL_H	inc/av_globle.h	3;"	d
+_CACHE_BLK	inc/mem_mng.h	/^typedef struct _CACHE_BLK{$/;"	s
+_CACHE_DATA	inc/mem_mng.h	/^typedef struct _CACHE_DATA{$/;"	s
+_CACHE_DATA_INFO	inc/mem_mng.h	/^typedef struct _CACHE_DATA_INFO{$/;"	s
+_CACHE_MNG_H_	inc/cache_mng.h	4;"	d
+_CACHE_MNG_INFO	inc/mem_mng.h	/^typedef struct _CACHE_MNG_INFO{$/;"	s
+_G711_S_	inc/g711s.h	7;"	d
+_HI3518C_P2P_h	inc/GM8126_p2p.h	3;"	d
+_INIT_SYSTEM_H	inc/init_system.h	4;"	d
+_MEM_INFO	inc/mem_mng.h	/^typedef struct _MEM_INFO{$/;"	s
+_MEM_SIZE	inc/mem_mng.h	/^typedef struct _MEM_SIZE{$/;"	s
+_SEM_UTIL_H_	inc/semaphore_util.h	16;"	d
+_STREAM_H_	inc/stream.h	4;"	d
+_STREAM_PARM	inc/stream.h	/^typedef struct _STREAM_PARM{$/;"	s
+_VIDEO_BLK_INFO	inc/mem_mng.h	/^typedef struct _VIDEO_BLK_INFO$/;"	s
+_VIDEO_FRAME	inc/mem_mng.h	/^typedef struct _VIDEO_FRAME$/;"	s
+_VIDEO_GOP	inc/mem_mng.h	/^typedef struct _VIDEO_GOP$/;"	s
+__AVI_SAVE_H	inc/avi_save.h	3;"	d
+__E	src/sd_file.c	23;"	d	file:
+__GOP_LOCK_H__	inc/gop_lock.h	16;"	d
+__LIBRTSP_H	inc/gm_librtsp.h	13;"	d
+__LIBRTSP_H	inc/librtsp.h	13;"	d
+__MEM_MNG__	inc/mem_mng.h	3;"	d
+__RTSPD_H	inc/rtspd.h	4;"	d
+__SHARE_MEM_H__	inc/share_mem.h	17;"	d
+_tagAvi_stream_status	src/avi_save.c	/^struct _tagAvi_stream_status{$/;"	s	file:
+_tagFile_array	src/processMsg.c	/^struct _tagFile_array{$/;"	s	file:
+_tagInfrad_ctrl	inc/av_globle.h	/^typedef struct _tagInfrad_ctrl{$/;"	s
+_tagInit_table	src/init_system.c	/^struct _tagInit_table{$/;"	s	file:
+_tagNVR_stream_status	src/p2p.c	/^struct _tagNVR_stream_status{$/;"	s	file:
+a2u_skip_table	src/g711s.s	/^a2u_skip_table:	$/;"	l
+ablk_size	src/rtspd.c	/^int audio_fd = -1, ablk_size = 0;$/;"	v
+abs_t	inc/rtspd.h	/^} abs_t;$/;"	t	typeref:struct:st_abs
+adata_b	src/rtspd.c	/^struct Audio_data	adata_b[2];$/;"	v	typeref:struct:Audio_data
+adata_fifo_in	src/rtspd.c	/^static void adata_fifo_in(struct Audio_data *padata, char* buf, int len)$/;"	f	file:
+adata_fifo_out	src/rtspd.c	/^static int adata_fifo_out(struct Audio_data *padata, char* buf, int* plen, int max_len)$/;"	f	file:
+add_to_list	src/rtspd.c	/^static inline void add_to_list(frame_slot_t *fs, frame_slot_t **list)$/;"	f	file:
+addr	inc/gm_librtsp.h	/^	struct sockaddr_in	addr;$/;"	m	struct:st_gm_clnt	typeref:struct:st_gm_clnt::sockaddr_in
+addr	inc/librtsp.h	/^	struct sockaddr_in	addr;$/;"	m	struct:st_gm_clnt	typeref:struct:st_gm_clnt::sockaddr_in
+adjust_ae_ev_mode	src/isp.c	/^int adjust_ae_ev_mode(int val)$/;"	f
+adjust_ae_max_exp	src/isp.c	/^int adjust_ae_max_exp(int val)$/;"	f
+adjust_ae_max_gain	src/isp.c	/^int adjust_ae_max_gain(int val)$/;"	f
+adjust_ae_min_exp	src/isp.c	/^int adjust_ae_min_exp(int val)$/;"	f
+adjust_ae_min_gain	src/isp.c	/^int adjust_ae_min_gain(int val)$/;"	f
+adjust_ae_pwr_freq	src/isp.c	/^int adjust_ae_pwr_freq(int val)$/;"	f
+adjust_ae_speed	src/isp.c	/^int adjust_ae_speed(int val)$/;"	f
+adjust_ae_targetY	src/isp.c	/^int adjust_ae_targetY(int val)$/;"	f
+adjust_awb_freeze_seg	src/isp.c	/^int adjust_awb_freeze_seg(int val)$/;"	f
+adjust_awb_interval	src/isp.c	/^int adjust_awb_interval(int val)$/;"	f
+adjust_awb_scene_mode	src/isp.c	/^int adjust_awb_scene_mode(int val)$/;"	f
+adjust_awb_speed	src/isp.c	/^int adjust_awb_speed(int val)$/;"	f
+adjust_brightness	src/isp.c	/^int adjust_brightness(int val)$/;"	f
+adjust_ce_intensity	src/isp.c	/^int adjust_ce_intensity(int val)$/;"	f
+adjust_contrast	src/isp.c	/^int adjust_contrast(int val)$/;"	f
+adjust_denoise	src/isp.c	/^int adjust_denoise(int val)$/;"	f
+adjust_gamma	src/isp.c	/^int adjust_gamma(int val)$/;"	f
+adjust_hue	src/isp.c	/^int adjust_hue(int val)$/;"	f
+adjust_saturation	src/isp.c	/^int adjust_saturation(int val)$/;"	f
+adjust_shapness	src/isp.c	/^int adjust_shapness(int val)$/;"	f
+apply_bs	src/rtspd.c	/^static int apply_bs(int ch_num, int sub_num, int command)$/;"	f	file:
+apply_bs_ensnap	src/rtspd.c	/^static int apply_bs_ensnap(int ch_num, int Num)$/;"	f	file:
+audio	inc/rtspd.h	/^	abs_t audio;  \/* AUDIO, 0: main-bitstream, 1: sub1-bitstream, 2:sub2-bitstream *\/$/;"	m	struct:st_bs
+audio	inc/rtspd.h	/^	priv_abs_t audio;  \/* AUDIO, 0: main-bitstream, 1: sub1-bitstream, 2:sub2-bitstream *\/$/;"	m	struct:st_priv_bs
+audio_data	src/rtspd.c	/^unsigned char *audio_data = NULL;$/;"	v
+audio_fd	src/rtspd.c	/^int audio_fd = -1, ablk_size = 0;$/;"	v
+audio_file	src/rtspd.c	/^char *audio_file = "\/mnt\/mtd\/audio.pcm";$/;"	v
+audio_get_tick	src/rtspd.c	/^static unsigned int audio_get_tick(struct timeval *tv)$/;"	f	file:
+audio_init	src/rtspd.c	/^static void audio_init(void)$/;"	f	file:
+audio_out_init	src/rtspd.c	/^static int audio_out_init(void)$/;"	f	file:
+audio_poll_fds	src/rtspd.c	/^struct pollfd audio_poll_fds;$/;"	v	typeref:struct:pollfd
+audio_stop	src/rtspd.c	/^static void audio_stop(void)$/;"	f	file:
+audio_sys_sec_a	src/rtspd.c	/^static struct timeval audio_sys_sec_a={-1,-1};$/;"	v	typeref:struct:timeval	file:
+audio_sys_tick	src/rtspd.c	/^static unsigned int audio_sys_tick = 0;$/;"	v	file:
+avIndex	src/p2p.c	/^    int avIndex;$/;"	m	struct:_AV_Client	file:
+av_field	src/avi_save.c	/^int av_field[2][7] = {$/;"	v
+av_server	src/av_server.c	/^void av_server(void)$/;"	f
+av_t	inc/rtspd.h	/^} av_t;$/;"	t	typeref:struct:st_av
+avail	inc/rtspd.h	/^	frame_slot_t *avail;$/;"	m	struct:st_frame_info
+avbs_t	inc/rtspd.h	/^} avbs_t;$/;"	t	typeref:struct:st_bs
+avg_bps	inc/rtspd.h	/^	int avg_bps;$/;"	m	struct:st_priv_abs
+avg_bps	inc/rtspd.h	/^	int avg_bps;$/;"	m	struct:st_priv_vbs
+avg_fps	inc/rtspd.h	/^	int avg_fps;$/;"	m	struct:st_priv_vbs
+avi_str_id	inc/rtspd.h	/^	int avi_str_id;$/;"	m	struct:st_priv_bs
+bEnableAudio	src/p2p.c	/^    unsigned char bEnableAudio;$/;"	m	struct:_AV_Client	file:
+bEnableSpeaker	src/p2p.c	/^    unsigned char bEnableSpeaker;$/;"	m	struct:_AV_Client	file:
+bEnableVideo	src/p2p.c	/^    unsigned char bEnableVideo;$/;"	m	struct:_AV_Client	file:
+bPausePlayBack	src/p2p.c	/^    unsigned char bPausePlayBack;$/;"	m	struct:_AV_Client	file:
+bStopPlayBack	src/p2p.c	/^    unsigned char bStopPlayBack;$/;"	m	struct:_AV_Client	file:
+bench0	src/g711s.s	/^bench0:$/;"	l
+bench1	src/g711s.s	/^bench1:$/;"	l
+blk	inc/mem_mng.h	/^	CACHE_BLK		*blk;$/;"	m	struct:_CACHE_MNG_INFO
+blk_free	inc/mem_mng.h	/^	int				blk_free;$/;"	m	struct:_VIDEO_BLK_INFO
+blk_num	inc/mem_mng.h	/^	int				blk_num;$/;"	m	struct:_CACHE_MNG_INFO
+blk_num	inc/mem_mng.h	/^	int				blk_num;$/;"	m	struct:_VIDEO_BLK_INFO
+blk_sz	inc/mem_mng.h	/^	int				blk_sz;$/;"	m	struct:_CACHE_MNG_INFO
+blk_sz	inc/mem_mng.h	/^	int				blk_sz;$/;"	m	struct:_VIDEO_BLK_INFO
+blkindex	inc/mem_mng.h	/^	int		blkindex;$/;"	m	struct:_CACHE_DATA
+blkindex	inc/mem_mng.h	/^	int		blkindex;$/;"	m	struct:_VIDEO_FRAME
+blks	inc/mem_mng.h	/^	int		blks;$/;"	m	struct:_CACHE_DATA
+blks	inc/mem_mng.h	/^	int		blks;$/;"	m	struct:_VIDEO_FRAME
+block_align	inc/g711.h	/^	int block_align;$/;"	m	struct:g711_encoder
+boot_other	src/av_server.c	/^int boot_other()$/;"	f
+bps	inc/rtspd.h	/^	int bps;	\/\/ if bps = 0, for default bps, generate by get_bitrate()$/;"	m	struct:st_vbs
+bps	inc/rtspd.h	/^	int bps;$/;"	m	struct:st_abs
+bs	inc/rtspd.h	/^	avbs_t bs[DVR_ENC_REPD_BT_NUM];  \/* VIDEO, 0: main-bitstream, 1: sub1-bitstream, 2:sub2-bitstream *\/$/;"	m	struct:st_av
+bs_buf_snap_offset	inc/rtspd.h	/^	unsigned int bs_buf_snap_offset;$/;"	m	struct:st_av
+bs_check_event	src/rtspd.c	/^static int bs_check_event(void)$/;"	f	file:
+bs_check_event_type	src/rtspd.c	/^static int bs_check_event_type(int bs_event)$/;"	f	file:
+bs_new_event	src/rtspd.c	/^void bs_new_event(void)$/;"	f
+buf	src/init_system.c	/^	void *buf;$/;"	m	struct:_tagInit_table	file:
+buf	src/processMsg.c	/^	void *buf;$/;"	m	struct:_tagFile_array	file:
+buf	src/rtspd.c	/^	char	buf[ADATA_BUF_LENGTH];$/;"	m	struct:Audio_data	file:
+buf_len	src/processMsg.c	/^	int buf_len;$/;"	m	struct:_tagFile_array	file:
+buf_usage	inc/rtspd.h	/^	int buf_usage;$/;"	m	struct:st_priv_abs
+buf_usage	inc/rtspd.h	/^	int buf_usage;$/;"	m	struct:st_priv_vbs
+cache	inc/mem_mng.h	/^	CACHE_DATA		*cache;$/;"	m	struct:_CACHE_MNG_INFO
+cache_blk_size	inc/mem_mng.h	/^	unsigned int cache_blk_size;$/;"	m	struct:_MEM_SIZE
+cache_num	inc/mem_mng.h	/^	int				cache_num;$/;"	m	struct:_CACHE_MNG_INFO
+cache_size	inc/mem_mng.h	/^	unsigned int cache_size;$/;"	m	struct:_MEM_SIZE
+cachemng	inc/mem_mng.h	/^	CACHE_MNG		*cachemng;$/;"	m	struct:_VIDEO_BLK_INFO
+cfg_file	src/rtspd.c	/^fcfg_file_t   *cfg_file;$/;"	v
+cfgud_bps	src/rtspd.c	/^static inline void cfgud_bps(int ch_num, int sub_num, int bit_rate)$/;"	f	file:
+cfgud_chk_parm	src/rtspd.c	/^static int cfgud_chk_parm(int ch_num, int sub_num)$/;"	f	file:
+cfgud_enabled_roi	src/rtspd.c	/^static inline void cfgud_enabled_roi(int ch_num, int sub_num, int enabled_roi)$/;"	f	file:
+cfgud_enc_type	src/rtspd.c	/^static inline int cfgud_enc_type(int ch_num, int sub_num, int enc_type)$/;"	f	file:
+cfgud_fps	src/rtspd.c	/^static inline void cfgud_fps(int ch_num, int sub_num, int fps)$/;"	f	file:
+cfgud_iniQ	src/rtspd.c	/^static inline void cfgud_iniQ(int ch_num, int sub_num, int enc_type, int init_quant)$/;"	f	file:
+cfgud_init	src/rtspd.c	/^static inline void cfgud_init(int ch_num, int sub_num)$/;"	f	file:
+cfgud_ip_interval	src/rtspd.c	/^static inline void cfgud_ip_interval(int ch_num, int sub_num, int ip_interval)$/;"	f	file:
+cfgud_maxQ	src/rtspd.c	/^static inline void cfgud_maxQ(int ch_num, int sub_num, int enc_type, int max_quant)$/;"	f	file:
+cfgud_minQ	src/rtspd.c	/^static inline void cfgud_minQ(int ch_num, int sub_num, int enc_type, int min_quant)$/;"	f	file:
+cfgud_mjpeg_quality	src/rtspd.c	/^static inline void cfgud_mjpeg_quality(int ch_num, int sub_num, int mjpeg_quality)$/;"	f	file:
+cfgud_rate_ctl_type	src/rtspd.c	/^static inline void cfgud_rate_ctl_type(int ch_num, int sub_num, int rate_ctl_type)$/;"	f	file:
+cfgud_rdm	src/rtspd.c	/^static inline void cfgud_rdm(int ch_num, int sub_num, int reaction_delay_max)$/;"	f	file:
+cfgud_res	src/rtspd.c	/^static inline int cfgud_res(int ch_num, int sub_num, int width, int height)$/;"	f	file:
+cfgud_roi_h	src/rtspd.c	/^static inline void cfgud_roi_h(int ch_num, int sub_num, int roi_h)$/;"	f	file:
+cfgud_roi_w	src/rtspd.c	/^static inline void cfgud_roi_w(int ch_num, int sub_num, int roi_w)$/;"	f	file:
+cfgud_roi_x	src/rtspd.c	/^static inline void cfgud_roi_x(int ch_num, int sub_num, int roi_x)$/;"	f	file:
+cfgud_roi_y	src/rtspd.c	/^static inline void cfgud_roi_y(int ch_num, int sub_num, int roi_y)$/;"	f	file:
+cfgud_stream_enable	src/rtspd.c	/^static inline void cfgud_stream_enable(int ch_num, int sub_num, int stream_enable)$/;"	f	file:
+cfgud_trm	src/rtspd.c	/^static inline void cfgud_trm(int ch_num, int sub_num, int target_rate_max)$/;"	f	file:
+ch_num	inc/rtspd.h	/^	int ch_num;$/;"	m	struct:st_video_frame
+channels	inc/g711.h	/^	int channels;$/;"	m	struct:g711_encoder
+check	src/avi_save.c	/^    int check; \/\/how long to check, -1: do not check$/;"	m	struct:_tagAvi_stream_status	file:
+check	src/p2p.c	/^    int check; \/\/how long to check, -1: do not check$/;"	m	struct:_tagNVR_stream_status	file:
+check_bs_param	src/rtspd.c	/^static inline int check_bs_param(int ch_num, int sub_num)$/;"	f	file:
+client	inc/gm_librtsp.h	/^	gm_ss_clnt_t	*client;$/;"	m	struct:st_gm_sr
+client	inc/librtsp.h	/^	gm_ss_clnt_t	*client;$/;"	m	struct:st_gm_sr
+close	inc/rtspd.h	/^	close_container_fn close;$/;"	m	struct:st_priv_bs
+close_bs	src/rtspd.c	/^int close_bs(int ch_num, int sub_num)$/;"	f
+close_channel	src/rtspd.c	/^static inline int close_channel(int ch_num)$/;"	f	file:
+close_container_fn	inc/rtspd.h	/^typedef int (*close_container_fn)(int ch_num, int sub_num);$/;"	t
+close_isp	src/isp.c	/^void close_isp(void)$/;"	f
+close_live_streaming	src/rtspd.c	/^static int close_live_streaming(int ch_num, int sub_num)$/;"	f	file:
+cmd_cb	src/rtspd.c	/^static int cmd_cb(char *name, int sno, int cmd, void *p)$/;"	f	file:
+cnt	inc/mem_mng.h	/^	int		cnt;$/;"	m	struct:_CACHE_DATA
+congest	inc/rtspd.h	/^	int congest;$/;"	m	struct:st_priv_bs
+convert_gmss_audio_type	src/rtspd.c	/^static int convert_gmss_audio_type(int type)$/;"	f	file:
+convert_gmss_media_type	src/rtspd.c	/^static int convert_gmss_media_type(int type)$/;"	f	file:
+cur_blk	inc/mem_mng.h	/^	int				cur_blk;$/;"	m	struct:_VIDEO_BLK_INFO
+cur_frame	inc/mem_mng.h	/^	int				cur_frame;$/;"	m	struct:_VIDEO_BLK_INFO
+cur_serial	inc/mem_mng.h	/^	int				cur_serial;$/;"	m	struct:_VIDEO_BLK_INFO
+data	inc/gm_librtsp.h	/^	char			*data;		\/\/ Point to actual data buffer.$/;"	m	struct:st_gm_ss_entity
+data	inc/librtsp.h	/^	char			*data;		\/\/ Point to actual data buffer.$/;"	m	struct:st_gm_ss_entity
+dbg_rtsp	src/rtspd.c	/^static void dbg_rtsp(void)$/;"	f	file:
+de_interlace	inc/rtspd.h	/^	int de_interlace;  \/* 3d-deInterlace  *\/$/;"	m	struct:st_av
+deal_ptz_preset	src/processMsg.c	/^static int deal_ptz_preset(int cmd_type, int index, char *name, char *pRet, int *pfile_flag)$/;"	f	file:
+del_dir	src/sd_file.c	/^int del_dir(char *dir_path)$/;"	f
+denoise	inc/rtspd.h	/^	int denoise;  \/* 3D-denoise *\/$/;"	m	struct:st_av
+do_audio_proc	src/rtspd.c	/^void do_audio_proc(void)$/;"	f
+do_poll_event	src/rtspd.c	/^void do_poll_event(void)$/;"	f
+do_queue_alloc	src/rtspd.c	/^static int do_queue_alloc(int type)$/;"	f	file:
+do_reset	src/init_system.c	/^void do_reset()$/;"	f
+dvr_enc_queue_get_def_table	src/rtspd.c	/^static int dvr_enc_queue_get_def_table[]={  $/;"	v	file:
+dvr_enc_queue_offset_def_table	src/rtspd.c	/^static int dvr_enc_queue_offset_def_table[]={  $/;"	v	file:
+e_CLOUD_CFG_FILE	src/processMsg.c	/^	e_CLOUD_CFG_FILE,$/;"	e	enum:__anon11	file:
+e_DDNS_CFG_FILE	src/processMsg.c	/^	e_DDNS_CFG_FILE,$/;"	e	enum:__anon11	file:
+e_ENC_0_FILE	src/processMsg.c	/^	e_ENC_0_FILE = 0,$/;"	e	enum:__anon11	file:
+e_ENC_1_FILE	src/processMsg.c	/^	e_ENC_1_FILE,$/;"	e	enum:__anon11	file:
+e_ENC_FW_FILE	src/processMsg.c	/^	e_ENC_FW_FILE,$/;"	e	enum:__anon11	file:
+e_END_FILE	src/processMsg.c	/^	e_END_FILE$/;"	e	enum:__anon11	file:
+e_FTP_CFG_FILE	src/processMsg.c	/^	e_FTP_CFG_FILE,$/;"	e	enum:__anon11	file:
+e_IMAGE_ATTR_FILE	src/processMsg.c	/^	e_IMAGE_ATTR_FILE,$/;"	e	enum:__anon11	file:
+e_INFRARED_CFG_FILE	src/processMsg.c	/^	e_INFRARED_CFG_FILE,$/;"	e	enum:__anon11	file:
+e_MD_CFG_FILE	src/processMsg.c	/^	e_MD_CFG_FILE,$/;"	e	enum:__anon11	file:
+e_NET_CFG_FILE	src/processMsg.c	/^	e_NET_CFG_FILE,$/;"	e	enum:__anon11	file:
+e_OVERLAY_CFG_FILE	src/processMsg.c	/^	e_OVERLAY_CFG_FILE,$/;"	e	enum:__anon11	file:
+e_PORT_CFG_FILE	src/processMsg.c	/^	e_PORT_CFG_FILE,$/;"	e	enum:__anon11	file:
+e_PTZCOM_CFG_FILE	src/processMsg.c	/^	e_PTZCOM_CFG_FILE,$/;"	e	enum:__anon11	file:
+e_PTZ_PRESET_FILE	src/processMsg.c	/^	e_PTZ_PRESET_FILE,$/;"	e	enum:__anon11	file:
+e_REC_CFG_FILE	src/processMsg.c	/^	e_REC_CFG_FILE,$/;"	e	enum:__anon11	file:
+e_SMTP_CFG_FILE	src/processMsg.c	/^	e_SMTP_CFG_FILE,$/;"	e	enum:__anon11	file:
+e_SNAPTIMER_CFG_FILE	src/processMsg.c	/^	e_SNAPTIMER_CFG_FILE,$/;"	e	enum:__anon11	file:
+e_SYS_CFG_FILE	src/processMsg.c	/^	e_SYS_CFG_FILE,$/;"	e	enum:__anon11	file:
+e_SYS_TIMER_FILE	src/processMsg.c	/^	e_SYS_TIMER_FILE,$/;"	e	enum:__anon11	file:
+e_UPNP_CFG_FILE	src/processMsg.c	/^	e_UPNP_CFG_FILE,$/;"	e	enum:__anon11	file:
+e_USER_FILE	src/processMsg.c	/^	e_USER_FILE,$/;"	e	enum:__anon11	file:
+e_VIDMASK_CFG_FILE	src/processMsg.c	/^	e_VIDMASK_CFG_FILE,$/;"	e	enum:__anon11	file:
+e_WF_CFG_FILE	src/processMsg.c	/^	e_WF_CFG_FILE,$/;"	e	enum:__anon11	file:
+e_avi_END	inc/avi_save.h	/^    e_avi_END$/;"	e	enum:__anon1
+e_avi_TimeL	inc/avi_save.h	/^    e_avi_TimeL,$/;"	e	enum:__anon1
+e_avi_enable	inc/avi_save.h	/^    e_avi_enable = 1024,$/;"	e	enum:__anon1
+e_avi_schd	inc/avi_save.h	/^	e_avi_schd,$/;"	e	enum:__anon1
+enable_print_average	src/rtspd.c	/^static int enable_print_average = 0;$/;"	v	file:
+enabled	inc/rtspd.h	/^	int enabled;  	\/\/ DVR_ENC_EBST_ENABLE: enabled, DVR_ENC_EBST_DISABLE: disabled$/;"	m	struct:st_abs
+enabled	inc/rtspd.h	/^	int enabled;  	\/\/DVR_ENC_EBST_ENABLE: enabled, DVR_ENC_EBST_DISABLE: disabled$/;"	m	struct:st_av
+enabled	inc/rtspd.h	/^	int enabled; \/\/DVR_ENC_EBST_ENABLE: enabled, DVR_ENC_EBST_DISABLE: disabled$/;"	m	struct:st_bs
+enabled	inc/rtspd.h	/^	int enabled; \/\/DVR_ENC_EBST_ENABLE: enabled, DVR_ENC_EBST_DISABLE: disabled$/;"	m	struct:st_vbs
+enabled_roi	inc/rtspd.h	/^	int enabled_roi;      \/\/1: enabled, 0: disabled, not ready$/;"	m	struct:st_vbs
+enabled_snapshot	inc/rtspd.h	/^	int enabled_snapshot; \/\/1: enabled, 0: disabled, not ready$/;"	m	struct:st_vbs
+enc	src/rtspd.c	/^av_t enc[CHANNEL_NUM];$/;"	v
+enc_fd	inc/rtspd.h	/^	int enc_fd; $/;"	m	struct:st_av
+enc_type	inc/rtspd.h	/^	int enc_type;	\/\/ 0:ENC_TYPE_H264, 1:ENC_TYPE_MPEG, 2:ENC_TYPE_MJPEG$/;"	m	struct:st_vbs
+enc_type	inc/rtspd.h	/^	int enc_type;	\/\/ 0:mp2, 1:adpcm, 2:amr$/;"	m	struct:st_abs
+enc_type_def_str	src/rtspd.c	/^static char *enc_type_def_str[]={  $/;"	v	file:
+enq_thread	src/rtspd.c	/^void *enq_thread(void *ptr)$/;"	f
+enq_thread_id	src/rtspd.c	/^pthread_t		enq_thread_id;$/;"	v
+env_bs_start	src/rtspd.c	/^void env_bs_start(void)$/;"	f
+env_bs_stop	src/rtspd.c	/^void env_bs_stop()$/;"	f
+env_cfg_check_section	src/rtspd.c	/^static int env_cfg_check_section(const char *section, fcfg_file_t * cfile)$/;"	f	file:
+env_cfg_get_value	src/rtspd.c	/^static int env_cfg_get_value(const char *section, const char *keyname, fcfg_file_t * cfile)$/;"	f	file:
+env_cfg_get_value_4_erret	src/rtspd.c	/^static int env_cfg_get_value_4_erret(const char *section, const char *keyname, fcfg_file_t * cfile)$/;"	f	file:
+env_cfg_init	src/rtspd.c	/^static void env_cfg_init(void)$/;"	f	file:
+env_enc_init	src/rtspd.c	/^static void env_enc_init(void)$/;"	f	file:
+env_file_init	src/rtspd.c	/^int env_file_init(void)$/;"	f
+env_init	src/rtspd.c	/^int env_init(void)$/;"	f
+env_release_resources	src/rtspd.c	/^static void	env_release_resources(void)$/;"	f	file:
+env_resources	src/rtspd.c	/^int env_resources(void)$/;"	f
+env_server_init	src/rtspd.c	/^int env_server_init(void)$/;"	f
+env_server_start	src/rtspd.c	/^int env_server_start(void)$/;"	f
+env_set_bs_new_event	src/rtspd.c	/^int env_set_bs_new_event(int ch_num, int sub_num, int event)$/;"	f
+event	inc/rtspd.h	/^	int event; \/\/ config change please set 1 for enq_thread to config this $/;"	m	struct:st_bs
+ext_size	inc/mem_mng.h	/^	unsigned int ext_size;$/;"	m	struct:_MEM_SIZE
+extraData	inc/mem_mng.h	/^	void			*extraData;$/;"	m	struct:_CACHE_MNG_INFO
+extraSize	inc/mem_mng.h	/^	int				extraSize;$/;"	m	struct:_CACHE_MNG_INFO
+extradata	inc/mem_mng.h	/^	void			*extradata;$/;"	m	struct:_VIDEO_BLK_INFO
+extrasize	inc/mem_mng.h	/^	int				extrasize;$/;"	m	struct:_VIDEO_BLK_INFO
+fd	inc/rtspd.h	/^	void *fd;$/;"	m	struct:st_priv_bs
+file_path	src/rtspd.c	/^char			file_path[FILE_PATH_MAX]	= "file";$/;"	v
+filename	src/init_system.c	/^	char *filename;$/;"	m	struct:_tagInit_table	file:
+filename	src/processMsg.c	/^	char *filename;$/;"	m	struct:_tagFile_array	file:
+find_file_sr	src/rtspd.c	/^priv_avbs_t *find_file_sr(char *name, int srno)$/;"	f
+find_oldest_dir_from_sdroot	src/sd_file.c	/^int find_oldest_dir_from_sdroot(char *dir)$/;"	f
+flag	inc/mem_mng.h	/^	int		flag;$/;"	m	struct:_CACHE_DATA
+flag	inc/mem_mng.h	/^	int		flag;$/;"	m	struct:_VIDEO_FRAME
+flag	inc/mem_mng.h	/^	int 			flag;$/;"	m	struct:_CACHE_DATA_INFO
+fps	inc/rtspd.h	/^	int fps;$/;"	m	struct:st_vbs
+fram_type	inc/mem_mng.h	/^	int 			fram_type;$/;"	m	struct:_CACHE_DATA_INFO
+fram_type	inc/mem_mng.h	/^	int 	fram_type;$/;"	m	struct:_CACHE_DATA
+fram_type	inc/mem_mng.h	/^	int 	fram_type;$/;"	m	struct:_VIDEO_FRAME
+frame	inc/mem_mng.h	/^	VIDEO_FRAME		*frame;$/;"	m	struct:_VIDEO_BLK_INFO
+frame_info	src/rtspd.c	/^static frame_info_t frame_info[VQ_MAX];$/;"	v	file:
+frame_info_t	inc/rtspd.h	/^} frame_info_t;$/;"	t	typeref:struct:st_frame_info
+frame_num	inc/mem_mng.h	/^	int				frame_num;$/;"	m	struct:_VIDEO_BLK_INFO
+frame_size	inc/g711.h	/^	int frame_size;$/;"	m	struct:g711_encoder
+frame_slot_t	inc/rtspd.h	/^} frame_slot_t;$/;"	t	typeref:struct:st_frame_slot
+free	inc/rtspd.h	/^	free_bs_fn free;$/;"	m	struct:st_priv_bs
+free_bs_data	src/rtspd.c	/^int free_bs_data(int ch_num, int sub_num, dvr_enc_queue_get *data)$/;"	f
+free_bs_fn	inc/rtspd.h	/^typedef int (*free_bs_fn)(int ch_num, int sub_num, dvr_enc_queue_get *data);$/;"	t
+free_video_frame	src/rtspd.c	/^static int free_video_frame(int qno)$/;"	f	file:
+freesize	inc/mem_mng.h	/^	int				freesize;$/;"	m	struct:_MEM_INFO
+frm_cb	src/rtspd.c	/^static int frm_cb(int type, int qno, gm_ss_entity *entity)$/;"	f	file:
+g711_data	src/rtspd.c	/^unsigned char *g711_data=NULL; \/\/ = {....};$/;"	v
+g711_encode_frame	src/rtspd.c	/^int g711_encode_frame(unsigned char *frame, void *data, int ByteLength,int channel)$/;"	f
+g711_encoder	inc/g711.h	/^struct g711_encoder {$/;"	s
+gClientInfo	src/p2p.c	/^static AV_Client gClientInfo[MAX_CLIENT_NUMBER];$/;"	v	file:
+gEventList	src/p2p.c	/^SMsgAVIoctrlListEventResp *gEventList;$/;"	v
+gOnlineNum	src/p2p.c	/^static int gOnlineNum = 0;$/;"	v	file:
+gSdStatus	src/sd_file.c	/^static int gSdStatus = 0x00;$/;"	v	file:
+gUID	src/p2p.c	/^static char gUID[32];$/;"	v	file:
+g_arrstOsd_file	src/init_system.c	/^Osd_cfg_t g_arrstOsd_file[REGION_NUM];$/;"	v
+g_iFw	src/init_system.c	/^int g_iFw;$/;"	v
+g_rec_TimeL	src/avi_save.c	/^static int g_rec_TimeL = 5 * 60; \/\/record time length, default 15s and max 900s, add 10s for each start sigle$/;"	v	file:
+g_rec_enable	src/avi_save.c	/^static int g_rec_enable = 0;$/;"	v	file:
+g_rec_schdule	src/avi_save.c	/^static int g_rec_schdule = 0;$/;"	v	file:
+g_rec_status	src/avi_save.c	/^static int g_rec_status = 0; \/\/0:release  1:busy$/;"	v	file:
+g_stAv_0_file	src/init_system.c	/^Av_cfg_t g_stAv_0_file;$/;"	v
+g_stAv_1_file	src/init_system.c	/^Av_cfg_t g_stAv_1_file;$/;"	v
+g_stCloud_cfg_file	src/init_system.c	/^Cloud_cfg_t g_stCloud_cfg_file;$/;"	v
+g_stDDNS_file	src/init_system.c	/^DDNS_cfg_t g_stDDNS_file;$/;"	v
+g_stFtcfg_file	src/init_system.c	/^Ft_cfg_t g_stFtcfg_file;$/;"	v
+g_stImg_file	src/init_system.c	/^Img_cfg_t g_stImg_file;$/;"	v
+g_stInfrad_ctl	inc/av_globle.h	/^stInfrad_ctl g_stInfrad_ctl;$/;"	v
+g_stInfrad_file	src/init_system.c	/^Infrared_cfg_t g_stInfrad_file;$/;"	v
+g_stMdcfg_file	src/init_system.c	/^Md_cfg_t g_stMdcfg_file;$/;"	v
+g_stNet_file	src/init_system.c	/^Net_cfg_t g_stNet_file;$/;"	v
+g_stPort_file	src/init_system.c	/^Port_cfg_t g_stPort_file;$/;"	v
+g_stPtzcfg_file	src/init_system.c	/^Ptz_cfg_t g_stPtzcfg_file;$/;"	v
+g_stPtzctl_file	src/init_system.c	/^Ptz_ctrl_t g_stPtzctl_file;$/;"	v
+g_stPtzpreset_file	src/init_system.c	/^Ptz_preset_t g_stPtzpreset_file;$/;"	v
+g_stRec_cfg_file	src/init_system.c	/^Rec_cfg_t g_stRec_cfg_file;$/;"	v
+g_stSmtpcfg_file	src/init_system.c	/^Smtp_cfg_t g_stSmtpcfg_file;$/;"	v
+g_stSnaptimercfg_file	src/init_system.c	/^Snaptimer_cfg_t g_stSnaptimercfg_file;$/;"	v
+g_stSyscfg_file	src/init_system.c	/^Sys_cfg_t g_stSyscfg_file;$/;"	v
+g_stTimecfg_file	src/init_system.c	/^Time_cfg_t g_stTimecfg_file;$/;"	v
+g_stUpnp_file	src/init_system.c	/^Upnp_cfg_t g_stUpnp_file;$/;"	v
+g_stUsr_file	src/init_system.c	/^User_file_t g_stUsr_file;$/;"	v
+g_stVidMaskcfg_file	src/init_system.c	/^VidMask_cfg_t g_stVidMaskcfg_file;$/;"	v
+g_stWf_search_file	src/init_system.c	/^Wf_search g_stWf_search_file;$/;"	v
+g_stwfcfg_file	src/init_system.c	/^Wf_cfg_t g_stwfcfg_file;$/;"	v
+gbSearchEvent	src/p2p.c	/^static int gbSearchEvent = 0;$/;"	v	file:
+gen_if_cfg	src/processMsg.c	/^void gen_if_cfg(char *ip, char *mac)$/;"	f
+getImgCtoW	src/av_globle.c	/^int getImgCtoW()$/;"	f
+getImgWtoC	src/av_globle.c	/^int getImgWtoC()$/;"	f
+getImg_saturation	src/av_globle.c	/^int getImg_saturation()$/;"	f
+getInfradStatue	src/av_globle.c	/^int getInfradStatue()$/;"	f
+getTimeStamp	src/p2p.c	/^unsigned int getTimeStamp()$/;"	f
+get_adc_value	src/infrad_ctrl.c	/^static int get_adc_value(int fd)$/;"	f	file:
+get_ae_win_weight	src/isp.c	/^int get_ae_win_weight(void)$/;"	f
+get_awb_wp_thres	src/isp.c	/^wp_thres_t* get_awb_wp_thres(void)$/;"	f
+get_bitrate	src/rtspd.c	/^static inline int get_bitrate(int width, int height, int fps)$/;"	f	file:
+get_bs_data	src/rtspd.c	/^static int get_bs_data(int ch_num, int sub_num, dvr_enc_queue_get *data)$/;"	f	file:
+get_curProtocol	src/processMsg.c	/^static int get_curProtocol()$/;"	f	file:
+get_isp_rgb_gain	src/isp.c	/^unsigned int get_isp_rgb_gain(int rgb_type)$/;"	f
+get_num_of_list	src/rtspd.c	/^static inline int get_num_of_list(frame_slot_t **list)$/;"	f	file:
+get_num_of_used_video_frame	src/rtspd.c	/^static int get_num_of_used_video_frame(int qno)$/;"	f	file:
+get_prenamestring	src/processMsg.c	/^static char *get_prenamestring(char *name)$/;"	f	file:
+get_presetIndex	src/processMsg.c	/^static int get_presetIndex(char *name)$/;"	f	file:
+get_reset_value	src/infrad_ctrl.c	/^static int get_reset_value(int fd)$/;"	f	file:
+get_sdpath	src/sd_file.c	/^const char *get_sdpath()$/;"	f
+get_tick	src/rtspd.c	/^static unsigned int get_tick(struct timeval *tv)$/;"	f	file:
+get_time_str	src/rtspd.c	/^void get_time_str(char *time_str)$/;"	f
+get_uid	src/p2p.c	/^int get_uid()$/;"	f
+getch	src/rtspd.c	/^static char getch(void)$/;"	f	file:
+gm_ss_clnt_t	inc/gm_librtsp.h	/^} gm_ss_clnt_t;$/;"	t	typeref:struct:st_gm_clnt
+gm_ss_clnt_t	inc/librtsp.h	/^} gm_ss_clnt_t;$/;"	t	typeref:struct:st_gm_clnt
+gm_ss_entity	inc/gm_librtsp.h	/^} gm_ss_entity;$/;"	t	typeref:struct:st_gm_ss_entity
+gm_ss_entity	inc/librtsp.h	/^} gm_ss_entity;$/;"	t	typeref:struct:st_gm_ss_entity
+gm_ss_sr_t	inc/gm_librtsp.h	/^} gm_ss_sr_t;$/;"	t	typeref:struct:st_gm_sr
+gm_ss_sr_t	inc/librtsp.h	/^} gm_ss_sr_t;$/;"	t	typeref:struct:st_gm_sr
+gop	inc/mem_mng.h	/^	VIDEO_GOP		gop;$/;"	m	struct:_VIDEO_BLK_INFO
+height	inc/mem_mng.h	/^	int				height;$/;"	m	struct:_VIDEO_BLK_INFO
+height	inc/rtspd.h	/^	int height;$/;"	m	struct:st_vbs
+hvextra	inc/mem_mng.h	/^	int				hvextra;$/;"	m	struct:_CACHE_MNG_INFO
+hvextra	inc/mem_mng.h	/^	int				hvextra;$/;"	m	struct:_VIDEO_BLK_INFO
+imgCtoW_th	inc/av_globle.h	/^	int					imgCtoW_th;$/;"	m	struct:_tagInfrad_ctrl
+imgWtoC_th	inc/av_globle.h	/^	int					imgWtoC_th;$/;"	m	struct:_tagInfrad_ctrl
+img_saturation	inc/av_globle.h	/^	int					img_saturation;$/;"	m	struct:_tagInfrad_ctrl
+in_file_size	inc/g711s.h	/^    unsigned int in_file_size;$/;"	m	struct:__anon6
+index	inc/gm_librtsp.h	/^	int				index;$/;"	m	struct:st_gm_sr
+index	inc/librtsp.h	/^	int				index;$/;"	m	struct:st_gm_sr
+index	src/processMsg.c	/^	int index;$/;"	m	struct:_tagFile_array	file:
+infrad_ctrl	src/infrad_ctrl.c	/^void *infrad_ctrl(void *ptr)$/;"	f
+infradctrl_id	src/infrad_ctrl.c	/^pthread_t		infradctrl_id;$/;"	v
+init_drv_common	src/rtspd.c	/^int init_drv_common()$/;"	f
+init_gbl	src/av_globle.c	/^void init_gbl(int status, int imgCtoW_th, int imgWtoC_th, int saturation)$/;"	f
+init_infrad	src/infrad_ctrl.c	/^void init_infrad()$/;"	f
+init_isp	src/isp.c	/^int init_isp(void)$/;"	f
+init_isp_pw_frequency	src/isp.c	/^int init_isp_pw_frequency(int iFW)$/;"	f
+init_p2p	src/p2p.c	/^void init_p2p()$/;"	f
+init_quant	inc/rtspd.h	/^	int init_quant;$/;"	m	struct:st_vbs
+init_resources	src/rtspd.c	/^static int init_resources(void)$/;"	f	file:
+init_system	src/init_system.c	/^void init_system()$/;"	f
+init_video_frame	src/rtspd.c	/^static int init_video_frame(int qno)$/;"	f	file:
+input	inc/g711.h	/^	struct stream_destination *input;$/;"	m	struct:g711_encoder	typeref:struct:g711_encoder::stream_destination
+input_buf	inc/g711s.h	/^    char  *input_buf  ;$/;"	m	struct:__anon6
+input_system	inc/rtspd.h	/^	int input_system; $/;"	m	struct:st_av
+inq	inc/g711.h	/^	struct soft_queue *inq;$/;"	m	struct:g711_encoder	typeref:struct:g711_encoder::soft_queue
+ip_interval	inc/rtspd.h	/^	int ip_interval;$/;"	m	struct:st_vbs
+ipptr	src/rtspd.c	/^char			*ipptr = NULL;$/;"	v
+ipstr	src/rtspd.c	/^char			ipstr[32] = {0};$/;"	v
+is_bs_all_disable	src/rtspd.c	/^int is_bs_all_disable(void)$/;"	f
+is_special_dir	src/sd_file.c	/^int is_special_dir(const char *path)$/;"	f
+isp_fd	src/isp.c	/^int isp_fd=0;$/;"	v
+itvl_bps	inc/rtspd.h	/^	int itvl_bps;$/;"	m	struct:st_priv_vbs
+itvl_fps	inc/rtspd.h	/^	int itvl_fps;$/;"	m	struct:st_priv_vbs
+kill_thttpd	src/processMsg.c	/^void kill_thttpd()$/;"	f
+last_End	inc/mem_mng.h	/^	int				last_End;$/;"	m	struct:_VIDEO_GOP
+last_End_serial	inc/mem_mng.h	/^	int				last_End_serial;$/;"	m	struct:_VIDEO_GOP
+last_Start	inc/mem_mng.h	/^	int				last_Start;$/;"	m	struct:_VIDEO_GOP
+last_Start_serial	inc/mem_mng.h	/^	int				last_Start_serial;$/;"	m	struct:_VIDEO_GOP
+lastest_I	inc/mem_mng.h	/^	int				lastest_I;$/;"	m	struct:_VIDEO_GOP
+lastest_I_serial	inc/mem_mng.h	/^	int				lastest_I_serial;$/;"	m	struct:_VIDEO_GOP
+len	src/init_system.c	/^	int len;$/;"	m	struct:_tagInit_table	file:
+lockNewFrame	inc/stream.h	/^	int 			lockNewFrame[GOP_INDEX_NUM];$/;"	m	struct:_STREAM_PARM
+m_Avi_id	src/avi_save.c	/^static pthread_t m_Avi_id;$/;"	v	file:
+m_NVRserver_quit	src/p2p.c	/^static int m_NVRserver_quit = 0;$/;"	v	file:
+m_Quit	src/avi_save.c	/^static int m_Quit = 0;$/;"	v	file:
+m_Quit	src/p2p.c	/^static int m_Quit = 0;$/;"	v	file:
+m_p2p_id	src/p2p.c	/^static pthread_t m_p2p_id;$/;"	v	file:
+main	src/main.c	/^int main(int argc, char *argv[])$/;"	f
+main_ch_setting	src/rtspd.c	/^dvr_enc_channel_param   main_ch_setting = $/;"	v
+max_quant	inc/rtspd.h	/^	int max_quant;$/;"	m	struct:st_vbs
+mctp_cmd_cb	src/rtspd.c	/^int mctp_cmd_cb(enum MCTP_CMD_TYPE cmd_type, char *cmdline)$/;"	f
+mem_blk_size	inc/mem_mng.h	/^	unsigned int mem_blk_size;$/;"	m	struct:_MEM_SIZE
+mem_layout	inc/mem_mng.h	/^	int				mem_layout;$/;"	m	struct:_MEM_INFO
+mem_size	inc/mem_mng.h	/^	unsigned int mem_size;$/;"	m	struct:_MEM_SIZE
+min_quant	inc/rtspd.h	/^	int min_quant;$/;"	m	struct:st_vbs
+mjpeg_quality	inc/rtspd.h	/^	int mjpeg_quality;$/;"	m	struct:st_vbs
+mkdir_t	src/sd_file.c	/^char* mkdir_t(int deepth)$/;"	f
+mutex	inc/av_globle.h	/^	pthread_mutex_t		mutex;$/;"	m	struct:_tagInfrad_ctrl
+mutex	inc/rtspd.h	/^	pthread_mutex_t mutex;$/;"	m	struct:st_frame_info
+nUseBytesPerBlk	inc/g711.h	/^	int nUseBytesPerBlk;$/;"	m	struct:g711_encoder
+name	inc/gm_librtsp.h	/^	char			*name;$/;"	m	struct:st_gm_sr
+name	inc/librtsp.h	/^	char			*name;$/;"	m	struct:st_gm_sr
+name	inc/rtspd.h	/^	char name[AV_NAME_MAX];$/;"	m	struct:st_priv_bs
+next	inc/gm_librtsp.h	/^	struct st_gm_clnt	*next;$/;"	m	struct:st_gm_clnt	typeref:struct:st_gm_clnt::st_gm_clnt
+next	inc/gm_librtsp.h	/^	struct st_gm_sr	*next;$/;"	m	struct:st_gm_sr	typeref:struct:st_gm_sr::st_gm_sr
+next	inc/librtsp.h	/^	struct st_gm_clnt	*next;$/;"	m	struct:st_gm_clnt	typeref:struct:st_gm_clnt::st_gm_clnt
+next	inc/librtsp.h	/^	struct st_gm_sr	*next;$/;"	m	struct:st_gm_sr	typeref:struct:st_gm_sr::st_gm_sr
+next	inc/rtspd.h	/^	struct st_frame_slot *next;$/;"	m	struct:st_frame_slot	typeref:struct:st_frame_slot::st_frame_slot
+offs	inc/rtspd.h	/^	int offs;		\/\/ bitstream mmap buffer offset.$/;"	m	struct:st_priv_vbs
+offs	inc/rtspd.h	/^	int offs;       \/\/ bitstream mmap buffer offset.$/;"	m	struct:st_priv_abs
+offset	inc/mem_mng.h	/^	int				offset;$/;"	m	struct:_MEM_INFO
+offset	inc/mem_mng.h	/^	int offset;$/;"	m	struct:_CACHE_BLK
+open	inc/rtspd.h	/^	open_container_fn open;$/;"	m	struct:st_priv_bs
+open_bs	src/rtspd.c	/^int open_bs(int ch_num, int sub_num)$/;"	f
+open_channel	src/rtspd.c	/^static inline int open_channel(int ch_num)$/;"	f	file:
+open_container_fn	inc/rtspd.h	/^typedef int (*open_container_fn)(int ch_num, int sub_num);$/;"	t
+open_live_streaming	src/rtspd.c	/^static int open_live_streaming(int ch_num, int sub_num)$/;"	f	file:
+opt_type	inc/rtspd.h	/^	opt_type_t opt_type;  \/* 1:rtsp_live_streaming, 2: file_avi_recording 3:file_h264_recording *\/$/;"	m	struct:st_bs
+opt_type_def_str	src/rtspd.c	/^static char *opt_type_def_str[]={  $/;"	v	file:
+opt_type_t	inc/rtspd.h	/^} opt_type_t;$/;"	t	typeref:enum:st_opt_type
+otherData	inc/mem_mng.h	/^	void				*otherData;$/;"	m	struct:_MEM_INFO
+otherSize	inc/mem_mng.h	/^	int				otherSize;$/;"	m	struct:_MEM_INFO
+out_file_size	inc/g711s.h	/^    unsigned int out_file_size;$/;"	m	struct:__anon6
+output	inc/g711.h	/^	struct stream *output;$/;"	m	struct:g711_encoder	typeref:struct:g711_encoder::stream
+output_buf	inc/g711s.h	/^    char  *output_buf  ;$/;"	m	struct:__anon6
+outq	inc/g711.h	/^	struct soft_queue *outq;$/;"	m	struct:g711_encoder	typeref:struct:g711_encoder::soft_queue
+p2p_send_status	src/p2p.c	/^static int p2p_send_status = 0;$/;"	v	file:
+p2p_start	src/p2p.c	/^void *p2p_start(void *ptr)$/;"	f
+p2p_stream_status	src/p2p.c	/^}p2p_stream_status[ENC_STREAM_NUM];$/;"	v	typeref:struct:_tagNVR_stream_status
+p_in	src/rtspd.c	/^	int		p_in;$/;"	m	struct:Audio_data	file:
+p_out	src/rtspd.c	/^	int		p_out;$/;"	m	struct:Audio_data	file:
+paudio_fd	src/rtspd.c	/^int paudio_fd=-1, paudio_init = 0;$/;"	v
+paudio_init	src/rtspd.c	/^int paudio_fd=-1, paudio_init = 0;$/;"	v
+play	inc/rtspd.h	/^	int play;$/;"	m	struct:st_priv_bs
+playBackCh	src/p2p.c	/^    int playBackCh;$/;"	m	struct:_AV_Client	file:
+playRecord	src/p2p.c	/^    SMsgAVIoctrlPlayRecord playRecord;$/;"	m	struct:_AV_Client	file:
+play_data	src/rtspd.c	/^unsigned char *play_data = NULL;$/;"	v
+poll_fds	src/rtspd.c	/^struct pollfd poll_fds[CHANNEL_NUM];  \/\/ poll$/;"	v	typeref:struct:pollfd
+prepare_free_space	src/avi_save.c	/^int prepare_free_space(char *path, unsigned int space)$/;"	f
+prev	inc/rtspd.h	/^	struct st_frame_slot *prev;$/;"	m	struct:st_frame_slot	typeref:struct:st_frame_slot::st_frame_slot
+print_enc_average	src/rtspd.c	/^static void print_enc_average(int tick)$/;"	f	file:
+priv_abs_t	inc/rtspd.h	/^} priv_abs_t;$/;"	t	typeref:struct:st_priv_abs
+priv_avbs_t	inc/rtspd.h	/^} priv_avbs_t;$/;"	t	typeref:struct:st_priv_bs
+priv_bs	inc/rtspd.h	/^	priv_avbs_t priv_bs[DVR_ENC_REPD_BT_NUM];	$/;"	m	struct:st_av
+priv_vbs_t	inc/rtspd.h	/^} priv_vbs_t;$/;"	t	typeref:struct:st_priv_vbs
+processMsg	src/processMsg.c	/^int processMsg(void *buf, int len, void *rbuf)$/;"	f
+processMsg_avi	src/avi_save.c	/^int processMsg_avi(void *buf, int len, void *rbuf)$/;"	f
+process_ID	src/processMsg.c	/^static int process_ID(char *p)$/;"	f	file:
+pt_list	src/rtspd.c	/^static void pt_list(int qno)$/;"	f	file:
+put_audio_data	src/rtspd.c	/^void put_audio_data(unsigned char *pbuf, unsigned int data_len)$/;"	f
+put_video_frame	src/rtspd.c	/^static void put_video_frame(int qno, frame_slot_t *fs)$/;"	f	file:
+qid	inc/stream.h	/^	int				qid;$/;"	m	struct:_STREAM_PARM
+qno	inc/rtspd.h	/^	int qno;$/;"	m	struct:st_priv_abs
+qno	inc/rtspd.h	/^	int qno;$/;"	m	struct:st_priv_vbs
+queue	inc/rtspd.h	/^	dvr_enc_queue_get queue;	$/;"	m	struct:st_video_frame
+quit_p2p	src/p2p.c	/^void quit_p2p()$/;"	f
+rate_ctl_type	inc/rtspd.h	/^	int rate_ctl_type;	\/\/ 0:cbr, 1:vbr, 2:ecbr, 3:evbr$/;"	m	struct:st_vbs
+rcCtlTypeString	src/rtspd.c	/^static char *rcCtlTypeString[]={$/;"	v	file:
+rcInSysString	src/rtspd.c	/^static char *rcInSysString[]={$/;"	v	file:
+reaction_delay_max	inc/rtspd.h	/^	int reaction_delay_max;$/;"	m	struct:st_vbs
+read	inc/rtspd.h	/^	read_bs_fn read;$/;"	m	struct:st_priv_bs
+read_bs_fn	inc/rtspd.h	/^typedef int (*read_bs_fn)(int ch_num, int sub_num, dvr_enc_queue_get *data);$/;"	t
+realsize	inc/mem_mng.h	/^	int				realsize;$/;"	m	struct:_CACHE_DATA_INFO
+realsize	inc/mem_mng.h	/^	int		realsize;$/;"	m	struct:_CACHE_DATA
+realsize	inc/mem_mng.h	/^	int		realsize;$/;"	m	struct:_VIDEO_FRAME
+rec_cfg_set	src/processMsg.c	/^void rec_cfg_set(void)$/;"	f
+ref_serial	inc/mem_mng.h	/^	int				ref_serial[VIDEO_INFO_END];$/;"	m	struct:_CACHE_DATA_INFO
+ref_serial	inc/mem_mng.h	/^	int		ref_serial[VIDEO_INFO_END];$/;"	m	struct:_CACHE_DATA
+ref_serial	inc/mem_mng.h	/^	int		ref_serial[VIDEO_INFO_END];$/;"	m	struct:_VIDEO_FRAME
+regedit_client_to_video	src/p2p.c	/^void regedit_client_to_video(int SID, int avIndex)$/;"	f
+remove_from_list	src/rtspd.c	/^static void remove_from_list(frame_slot_t *fs, frame_slot_t **list)$/;"	f	file:
+remove_from_listhead	src/rtspd.c	/^static inline frame_slot_t *remove_from_listhead(frame_slot_t **list)$/;"	f	file:
+reset_intra_frame	inc/rtspd.h	/^	int reset_intra_frame;$/;"	m	struct:st_priv_bs
+reset_stat	src/infrad_ctrl.c	/^int reset_stat = 0;$/;"	v
+reset_sys	src/infrad_ctrl.c	/^static void reset_sys()$/;"	f	file:
+reset_table	src/init_system.c	/^struct _tagInit_table reset_table[] = {$/;"	v	typeref:struct:_tagInit_table
+restart	src/rtspd.c	/^void restart()$/;"	f
+roi_h	inc/rtspd.h	/^	int roi_h;            \/\/roi height in pixel$/;"	m	struct:st_vbs
+roi_w	inc/rtspd.h	/^	int roi_w;            \/\/roi width in pixel$/;"	m	struct:st_vbs
+roi_x	inc/rtspd.h	/^	int roi_x;            \/\/roi x position$/;"	m	struct:st_vbs
+roi_y	inc/rtspd.h	/^	int roi_y;            \/\/roi y position$/;"	m	struct:st_vbs
+rtspd_dvr_fd	src/rtspd.c	/^int rtspd_dvr_fd = 0;$/;"	v
+rtspd_set_event	src/rtspd.c	/^static int rtspd_set_event=0;$/;"	v	file:
+rtspd_start	src/rtspd.c	/^int rtspd_start()		\/\/port = 554$/;"	f
+rtspd_sysinit	src/rtspd.c	/^static int rtspd_sysinit=0;$/;"	v	file:
+sLock	src/p2p.c	/^    pthread_rwlock_t sLock;$/;"	m	struct:_AV_Client	file:
+samprate	inc/g711.h	/^	int samprate;$/;"	m	struct:g711_encoder
+save_schedule	src/avi_save.c	/^static int save_schedule(int schd)$/;"	f	file:
+sdpstr	inc/rtspd.h	/^	char sdpstr[SDPSTR_MAX];$/;"	m	struct:st_priv_abs
+sdpstr	inc/rtspd.h	/^	char sdpstr[SDPSTR_MAX];$/;"	m	struct:st_priv_vbs
+search_from_list	src/rtspd.c	/^static frame_slot_t *search_from_list(int search_key, frame_slot_t **list)$/;"	f	file:
+search_key	inc/rtspd.h	/^	int search_key;$/;"	m	struct:st_video_frame
+search_video_frame	src/rtspd.c	/^static frame_slot_t *search_video_frame(int qno, int search_key)$/;"	f	file:
+send_audio_proc	src/rtspd.c	/^void send_audio_proc(void)$/;"	f
+send_frame_p2p	src/p2p.c	/^int send_frame_p2p(char *buf, int size, int flag)$/;"	f
+sent_ptz_cmd	src/rtspd.c	/^static int sent_ptz_cmd(char *cmdline)$/;"	f	file:
+serial	inc/mem_mng.h	/^	int 			serial;$/;"	m	struct:_CACHE_DATA_INFO
+serial	inc/mem_mng.h	/^	int 	serial;$/;"	m	struct:_CACHE_DATA
+serial	inc/mem_mng.h	/^	int 	serial;$/;"	m	struct:_VIDEO_FRAME
+serial	inc/mem_mng.h	/^	int serial;$/;"	m	struct:_CACHE_BLK
+set_IDR_BR	src/rtspd.c	/^void set_IDR_BR(int ch_num, int sub_num)$/;"	f
+set_I_frame	src/rtspd.c	/^int set_I_frame(int ch_num)$/;"	f
+set_Img_saturation	src/av_globle.c	/^void set_Img_saturation(int saturation)$/;"	f
+set_Protocol	src/processMsg.c	/^static void set_Protocol(int p)$/;"	f	file:
+set_ae_win_weight	src/isp.c	/^int set_ae_win_weight(void)$/;"	f
+set_auto_cs_en	src/isp.c	/^int set_auto_cs_en(int val)$/;"	f
+set_auto_cs_ratio	src/isp.c	/^int set_auto_cs_ratio(int val)$/;"	f
+set_auto_cs_th	src/isp.c	/^int set_auto_cs_th(int val)$/;"	f
+set_awb_MAX_B2G	src/isp.c	/^int set_awb_MAX_B2G(int val)$/;"	f
+set_awb_MAX_R2G	src/isp.c	/^int set_awb_MAX_R2G(int val)$/;"	f
+set_awb_MAX_RmB2GG	src/isp.c	/^int set_awb_MAX_RmB2GG(int val)$/;"	f
+set_awb_MAX_RsB2G	src/isp.c	/^int set_awb_MAX_RsB2G(int val)$/;"	f
+set_awb_MAX_YTH	src/isp.c	/^static int set_awb_MAX_YTH(int val)$/;"	f	file:
+set_awb_MIN_B2G	src/isp.c	/^int set_awb_MIN_B2G(int val)$/;"	f
+set_awb_MIN_R2G	src/isp.c	/^int set_awb_MIN_R2G(int val)$/;"	f
+set_awb_MIN_RmB2GG	src/isp.c	/^int set_awb_MIN_RmB2GG(int val)$/;"	f
+set_awb_MIN_RsB2G	src/isp.c	/^int set_awb_MIN_RsB2G(int val)$/;"	f
+set_awb_MIN_YTH	src/isp.c	/^int set_awb_MIN_YTH(int val)$/;"	f
+set_bps	src/rtspd.c	/^int set_bps(int channel, int sub_channel, int val)$/;"	f
+set_bs_bps	src/rtspd.c	/^static inline int set_bs_bps(int ch_num, int sub_num, int bps, int rate_ctl_type)$/;"	f	file:
+set_bs_buf	src/rtspd.c	/^static int set_bs_buf(int ch_num)$/;"	f	file:
+set_bs_fps	src/rtspd.c	/^static inline int set_bs_fps(int ch_num, int sub_num, int fps)$/;"	f	file:
+set_bs_intra_frame	src/rtspd.c	/^static int set_bs_intra_frame(int ch_num, int sub_num)$/;"	f	file:
+set_bs_opt_type	src/rtspd.c	/^static inline int set_bs_opt_type(int ch_num, int sub_num, int opt_type)$/;"	f	file:
+set_bs_res	src/rtspd.c	/^static inline int set_bs_res(int ch_num, int sub_num, int width, int height)$/;"	f	file:
+set_exp_gain	src/isp.c	/^int set_exp_gain(int exp, int gain)$/;"	f
+set_flip	src/isp.c	/^int set_flip(int val)$/;"	f
+set_fps	src/rtspd.c	/^int set_fps(int channel, int sub_channel, int val)$/;"	f
+set_httpport	src/processMsg.c	/^void set_httpport(int port)$/;"	f
+set_imageconfig	src/processMsg.c	/^void set_imageconfig(Command_e cmd, Img_cfg_t img_data)$/;"	f
+set_imgCtoW	src/av_globle.c	/^void set_imgCtoW(int imgCtoW)$/;"	f
+set_imgWtoC	src/av_globle.c	/^void set_imgWtoC(int imgWtoC)$/;"	f
+set_infradstatus	src/av_globle.c	/^void set_infradstatus(int status)$/;"	f
+set_infraredconfig	src/processMsg.c	/^void set_infraredconfig(Command_e cmd, Infrared_cfg_t infrared_data)$/;"	f
+set_ip_int	src/rtspd.c	/^int set_ip_int(int channel, int sub_channel, int val)$/;"	f
+set_isp_rgb_gain	src/isp.c	/^void set_isp_rgb_gain(int rgb_type, unsigned int gain)$/;"	f
+set_main_3di	src/rtspd.c	/^static void set_main_3di(int ch_num, dvr_enc_channel_param *ch_param)$/;"	f	file:
+set_main_bs	src/rtspd.c	/^static int set_main_bs(int ch_num)$/;"	f	file:
+set_mirror	src/isp.c	/^int set_mirror(int val)$/;"	f
+set_netconfig	src/processMsg.c	/^void set_netconfig(Command_e cmd, Net_cfg_t net_data)$/;"	f
+set_nvr_send_status	src/rtspd.c	/^void set_nvr_send_status(int ch_num, int sub_num, int opt)$/;"	f
+set_poll_event	src/rtspd.c	/^int set_poll_event(void)$/;"	f
+set_portconfig	src/processMsg.c	/^void set_portconfig(Command_e cmd, Port_cfg_t port_data)$/;"	f
+set_ptz	src/processMsg.c	/^void set_ptz(float fvx, float fvy, char* ptzcmd)$/;"	f
+set_sdpstr	src/rtspd.c	/^static void set_sdpstr(char *sdpstr, int enc_type)$/;"	f	file:
+set_sensor_ae	src/isp.c	/^int set_sensor_ae(int val)$/;"	f
+set_sensor_awb	src/isp.c	/^int set_sensor_awb(int val)$/;"	f
+set_sub_bs	src/rtspd.c	/^static int set_sub_bs(int ch_num, int sub_num)$/;"	f	file:
+set_tag	src/rtspd.c	/^static void set_tag(int ch_num, int sub_num, FuncTag *tag)$/;"	f	file:
+set_timerconfig	src/processMsg.c	/^void set_timerconfig(Command_e cmd, Time_cfg_t time_data)$/;"	f
+set_to_Color	src/infrad_ctrl.c	/^static void set_to_Color(int fd)$/;"	f	file:
+set_to_White	src/infrad_ctrl.c	/^static void set_to_White(int fd)$/;"	f	file:
+show_enc_cfg	src/rtspd.c	/^static void show_enc_cfg(void)$/;"	f	file:
+size	inc/gm_librtsp.h	/^	int				size;		\/\/ Actual size.$/;"	m	struct:st_gm_ss_entity
+size	inc/librtsp.h	/^	int				size;		\/\/ Actual size.$/;"	m	struct:st_gm_ss_entity
+size	inc/mem_mng.h	/^	int				size;$/;"	m	struct:_CACHE_MNG_INFO
+size	inc/mem_mng.h	/^	unsigned long	size;$/;"	m	struct:_VIDEO_BLK_INFO
+snap_init_OK	src/rtspd.c	/^static int snap_init_OK = 0;$/;"	v	file:
+snap_start	src/rtspd.c	/^unsigned int snap_start = 0;$/;"	v
+spe_preset_index	src/processMsg.c	/^int spe_preset_index[SPE_PRESET_END-SPE_PRESET_START] = {95, 101, 102, 103, 125, 126, 127, 128};$/;"	v
+speakerCh	src/p2p.c	/^    int speakerCh;$/;"	m	struct:_AV_Client	file:
+sr	inc/rtspd.h	/^	int sr;$/;"	m	struct:st_priv_bs
+stInfrad_ctl	inc/av_globle.h	/^}stInfrad_ctl;$/;"	t	typeref:struct:_tagInfrad_ctrl
+st_abs	inc/rtspd.h	/^typedef struct st_abs {$/;"	s
+st_av	inc/rtspd.h	/^typedef struct st_av {$/;"	s
+st_bs	inc/rtspd.h	/^typedef struct st_bs {$/;"	s
+st_frame_info	inc/rtspd.h	/^typedef struct st_frame_info {$/;"	s
+st_frame_slot	inc/rtspd.h	/^typedef struct st_frame_slot {$/;"	s
+st_gm_clnt	inc/gm_librtsp.h	/^typedef struct st_gm_clnt {$/;"	s
+st_gm_clnt	inc/librtsp.h	/^typedef struct st_gm_clnt {$/;"	s
+st_gm_sr	inc/gm_librtsp.h	/^typedef struct st_gm_sr {$/;"	s
+st_gm_sr	inc/librtsp.h	/^typedef struct st_gm_sr {$/;"	s
+st_gm_ss_entity	inc/gm_librtsp.h	/^typedef struct st_gm_ss_entity {$/;"	s
+st_gm_ss_entity	inc/librtsp.h	/^typedef struct st_gm_ss_entity {$/;"	s
+st_opt_type	inc/rtspd.h	/^typedef enum st_opt_type {$/;"	g
+st_priv_abs	inc/rtspd.h	/^typedef struct st_priv_abs {$/;"	s
+st_priv_bs	inc/rtspd.h	/^typedef struct st_priv_bs {$/;"	s
+st_priv_vbs	inc/rtspd.h	/^typedef struct st_priv_vbs {$/;"	s
+st_vbs	inc/rtspd.h	/^typedef struct st_vbs {$/;"	s
+st_video_frame	inc/rtspd.h	/^typedef struct st_video_frame {$/;"	s
+start	inc/mem_mng.h	/^	unsigned long	start;$/;"	m	struct:_VIDEO_BLK_INFO
+start_addr	inc/mem_mng.h	/^	unsigned long 	start_addr;$/;"	m	struct:_CACHE_DATA_INFO
+start_addr	inc/mem_mng.h	/^	unsigned long 	start_addr;$/;"	m	struct:_CACHE_MNG_INFO
+start_addr	inc/mem_mng.h	/^	unsigned long 	start_addr;$/;"	m	struct:_MEM_INFO
+start_isp	src/isp.c	/^int start_isp()$/;"	f
+start_ntp	src/processMsg.c	/^int start_ntp()$/;"	f
+start_phy	inc/mem_mng.h	/^	unsigned long	start_phy;$/;"	m	struct:_VIDEO_BLK_INFO
+start_phy	inc/mem_mng.h	/^	unsigned long 	start_phy;$/;"	m	struct:_CACHE_DATA_INFO
+start_phy	inc/mem_mng.h	/^	unsigned long 	start_phy;$/;"	m	struct:_CACHE_MNG_INFO
+start_phyAddr	inc/mem_mng.h	/^	unsigned long 	start_phyAddr;$/;"	m	struct:_MEM_INFO
+stat	src/rtspd.c	/^	int		stat;$/;"	m	struct:Audio_data	file:
+status	inc/av_globle.h	/^	int					status;$/;"	m	struct:_tagInfrad_ctrl
+streamFlag	src/avi_save.c	/^    int streamFlag;  \/\/0:no new stream 1:new stream$/;"	m	struct:_tagAvi_stream_status	file:
+streamFlag	src/p2p.c	/^    int streamFlag;  \/\/0:no new stream 1:new stream$/;"	m	struct:_tagNVR_stream_status	file:
+sub_ch_setting	src/rtspd.c	/^ReproduceBitStream   sub_ch_setting = $/;"	v
+sub_num	inc/rtspd.h	/^	int sub_num;$/;"	m	struct:st_video_frame
+sys_port	src/rtspd.c	/^int				sys_port	= 554;$/;"	v
+sys_sec	src/rtspd.c	/^__time_t		sys_sec;$/;"	v
+sys_tick	src/rtspd.c	/^unsigned int	sys_tick = 0;$/;"	v
+t_ch_num	src/rtspd.c	/^static int t_ch_num = 2;$/;"	v	file:
+take_video_frame	src/rtspd.c	/^static frame_slot_t *take_video_frame(int qno)$/;"	f	file:
+target_rate_max	inc/rtspd.h	/^	int target_rate_max;$/;"	m	struct:st_vbs
+temporalId	inc/mem_mng.h	/^	unsigned int	temporalId;$/;"	m	struct:_CACHE_DATA_INFO
+temporalId	inc/mem_mng.h	/^	unsigned int	temporalId;$/;"	m	struct:_VIDEO_BLK_INFO
+temporalId	inc/mem_mng.h	/^	unsigned int	temporalId;$/;"	m	struct:_VIDEO_FRAME
+temporalId	inc/mem_mng.h	/^	unsigned int temporalId;$/;"	m	struct:_CACHE_DATA
+thread	inc/g711.h	/^	pthread_t thread;$/;"	m	struct:g711_encoder
+threadControl	inc/stream.h	/^	pthread_t		threadControl;$/;"	m	struct:_STREAM_PARM
+thread_ForAVServerStart	src/p2p.c	/^void *thread_ForAVServerStart(void *arg)$/;"	f
+thread_Login	src/p2p.c	/^void *thread_Login(void *arg)$/;"	f
+tick	inc/rtspd.h	/^	unsigned int tick;$/;"	m	struct:st_priv_abs
+tick	inc/rtspd.h	/^	unsigned int tick;$/;"	m	struct:st_priv_vbs
+timed	inc/rtspd.h	/^	int timed;$/;"	m	struct:st_priv_abs
+timed	inc/rtspd.h	/^	int timed;$/;"	m	struct:st_priv_vbs
+timediff	src/rtspd.c	/^static inline unsigned int timediff(unsigned int ptime, unsigned int ctime)$/;"	f	file:
+timestamp	inc/gm_librtsp.h	/^	unsigned int	timestamp;	\/\/ Global across all entities, in 90 KHz.$/;"	m	struct:st_gm_ss_entity
+timestamp	inc/librtsp.h	/^	unsigned int	timestamp;	\/\/ Global across all entities, in 90 KHz.$/;"	m	struct:st_gm_ss_entity
+timestamp	inc/mem_mng.h	/^	unsigned int	timestamp;$/;"	m	struct:_CACHE_DATA_INFO
+timestamp	inc/mem_mng.h	/^	unsigned int	timestamp;$/;"	m	struct:_VIDEO_BLK_INFO
+timestamp	inc/mem_mng.h	/^	unsigned int	timestamp;$/;"	m	struct:_VIDEO_FRAME
+timestamp	inc/mem_mng.h	/^	unsigned int timestamp;$/;"	m	struct:_CACHE_DATA
+timeval	inc/rtspd.h	/^	unsigned int timeval;$/;"	m	struct:st_priv_abs
+timeval	inc/rtspd.h	/^	unsigned int timeval;$/;"	m	struct:st_priv_vbs
+tinc	inc/rtspd.h	/^	int	tinc;	\/* interval, in unit of 1\/9KHz. *\/$/;"	m	struct:st_priv_vbs
+tinc	inc/rtspd.h	/^	int tinc; \/* interval, in unit of 1\/9KHz. *\/$/;"	m	struct:st_priv_abs
+totalsize	inc/mem_mng.h	/^	int				totalsize;$/;"	m	struct:_MEM_INFO
+u2a_skip_table	src/g711s.s	/^u2a_skip_table:	$/;"	l
+ubs	inc/rtspd.h	/^	update_avbs_t ubs[DVR_ENC_REPD_BT_NUM];$/;"	m	struct:st_av
+ubs_mutex	inc/rtspd.h	/^	pthread_mutex_t ubs_mutex;$/;"	m	struct:st_av
+unregedit_client_from_video	src/p2p.c	/^void unregedit_client_from_video(int SID)$/;"	f
+used	inc/rtspd.h	/^	frame_slot_t *used;$/;"	m	struct:st_frame_info
+v_bs_mbuf_addr	inc/rtspd.h	/^	unsigned char *v_bs_mbuf_addr;$/;"	m	struct:st_av
+v_bs_mbuf_size	inc/rtspd.h	/^	int v_bs_mbuf_size;$/;"	m	struct:st_av
+vbs_t	inc/rtspd.h	/^} vbs_t;$/;"	t	typeref:struct:st_vbs
+vf	inc/rtspd.h	/^	video_frame_t *vf;$/;"	m	struct:st_frame_slot
+video	inc/rtspd.h	/^	priv_vbs_t video;  \/* VIDEO, 0: main-bitstream, 1: sub1-bitstream, 2:sub2-bitstream *\/$/;"	m	struct:st_priv_bs
+video	inc/rtspd.h	/^	vbs_t video;  \/* VIDEO, 0: main-bitstream, 1: sub1-bitstream, 2:sub2-bitstream *\/$/;"	m	struct:st_bs
+video_frame_t	inc/rtspd.h	/^} video_frame_t;$/;"	t	typeref:struct:st_video_frame
+video_info	inc/mem_mng.h	/^	VIDEO_BLK_INFO	*video_info;$/;"	m	struct:_MEM_INFO
+video_info_nums	inc/mem_mng.h	/^	int				video_info_nums;$/;"	m	struct:_MEM_INFO
+video_type	inc/mem_mng.h	/^	int 			video_type;$/;"	m	struct:_CACHE_MNG_INFO
+video_type	inc/mem_mng.h	/^	int 			video_type;$/;"	m	struct:_VIDEO_BLK_INFO
+width	inc/mem_mng.h	/^	int				width;$/;"	m	struct:_VIDEO_BLK_INFO
+width	inc/rtspd.h	/^	int width;$/;"	m	struct:st_vbs
+write	inc/rtspd.h	/^	write_bs_fn write;$/;"	m	struct:st_priv_bs
+write_bs_fn	inc/rtspd.h	/^typedef int (*write_bs_fn)(int ch_num, int sub_num, void *data);$/;"	t
+write_jpg	src/rtspd.c	/^static int write_jpg(int chn, unsigned int jpg_id, void *data)$/;"	f	file:
+write_rtp_audio	src/rtspd.c	/^static int write_rtp_audio(int ch_num, int sub_num, void *data, int data_len)$/;"	f	file:
+write_rtp_frame	src/rtspd.c	/^static int write_rtp_frame(int ch_num, int sub_num, void *data)$/;"	f	file:
